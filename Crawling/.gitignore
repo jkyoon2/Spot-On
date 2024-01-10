@@ -1,0 +1,8 @@
+# Ignore pycache
+__pycache__/
+
+# Ignore .log files
+*.log
+
+# Ignore json files in outputs folder
+outputs/*.json
