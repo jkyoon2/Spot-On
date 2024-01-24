@@ -99,8 +99,14 @@ def crawl(page_num, save_path='./', **kwargs):
 
         # First get the style tag of the codimap (This dissapears when you click the codimap)
         style_tag = data_rows[i].find('span', attrs={'class':'style-list-information__text'})
-        codi_element_xpath = driver.find_element(By.XPATH, f"/html/body/div[3]/div[2]/form/div[4]/div/ul/li[{i+1}]/div[1]/a/div/img")
-        codi_element_xpath.click() # Click the codi map and go to the detail page.
+
+        try:
+            codi_element_xpath = driver.find_element(By.XPATH, f"/html/body/div[3]/div[2]/form/div[4]/div/ul/li[{i+1}]/div[1]/a/div/img")
+            codi_element_xpath.click() # Click the codi map and go to the detail page.
+        except:
+            logger.info(f"#{i+1} codimap crawling failed - when clicking the codimap")
+            logger.info(f"URL: {url}")
+            continue
             
         # Wait until the page is loaded
         WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'style_info')))
