@@ -1,5 +1,4 @@
 import os, logging, argparse
-import multiprocessing
 from bs4 import BeautifulSoup
 import selenium
 from selenium import webdriver
@@ -20,14 +19,11 @@ from utils import get_detail_info, get_item_info
 parser = argparse.ArgumentParser()
 parser.add_argument('--start_page', type=int, default=1, help='Start page number')
 parser.add_argument('--end_page', type=int, default=2, help='End page number')
-parser.add_argument('--mode', type=str, default='headless', help='Mode of crawling (display, headless, server)')
+parser.add_argument('--mode', type=str, default='display', help='Mode of crawling (display, headless, server)')
 parser.add_argument('--save_path', type=str, default='./outputs/', help='Path to save the data')
 parser.add_argument('--log_path', type=str, default='./', help='Path to save the log')
-parser.add_argument('--num_workers', type=int, default=1, help='Number of workers')
 parser.add_argument('--debug', action='store_true', help='Debugging purpose')
-parser.add_argument('--use_proxy', action='store_true', help='Use proxy')
 parser.add_argument('--sleep_time', type=int, default=2, help='Sleep time for each page')
-parser.add_argument('--proxy_path', type=str, default='117.1.16.131:8080', help='Proxy IP and port number')
 parser.add_argument('--continue', action='store_true', help='Crawl missing pages')
 
 args = parser.parse_args()
@@ -50,10 +46,6 @@ elif args.mode == 'server':
 else:
     logging.info("Invalid mode. Please check the mode again. (display, headless, server))")
     exit()
-
-# Set proxy for chrome driver
-if args.use_proxy:
-    options.add_argument(f"--proxy-server={args.proxy_path}")
 
 # Logging setting
 logger = logging.getLogger(__name__)
@@ -85,7 +77,7 @@ def crawl(page_num, save_path='./', **kwargs):
         :return: codimap_list
     """
     # Set driver
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    driver = webdriver.Chrome(options=options)
     driver.implicitly_wait(3)
 
     codimap_list = []
@@ -104,7 +96,7 @@ def crawl(page_num, save_path='./', **kwargs):
         driver.get(url)
         # WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'address')))
 
-        logging.info(f"#{i+1} codimap crawling started")
+        logger.info(f"#{i+1} codimap crawling started")
 
         # First get the style tag of the codimap (This dissapears when you click the codimap)
         style_tag = data_rows[i].find('span', attrs={'class':'style-list-information__text'})
@@ -123,7 +115,6 @@ def crawl(page_num, save_path='./', **kwargs):
         item_list = []
         
         for item_url in detail_info['item_urls']:
-
             time.sleep(args.sleep_time)
             driver.get(item_url)
             
@@ -132,20 +123,19 @@ def crawl(page_num, save_path='./', **kwargs):
             )
 
             soup = BeautifulSoup(driver.page_source, 'lxml')
-            item_info = get_item_info(driver, soup)
-            item_list.append(item_info)
-        
-        breakpoint()
+            try:
+                item_info = get_item_info(driver, soup)
+                item_list.append(item_info)
+            except:
+                # Remove item_url from item_urls
+                logger.info(f"Item crawling failed. Item url: {item_url}")
+                detail_info['item_urls'].remove(item_url)
         
         # Add codimap information to codimap_list
         detail_info['item_list'] = item_list
         codimap_list.append(detail_info)
 
         logger.info(f"Page {page_num}, #{i+1} codimap crawling finished")
-
-        # Show detail info if num_workers is 1
-        if args.num_workers == 1:
-            logger.info(f"Detail info: {detail_info}")
 
     # Save the data in json format
     if not os.path.exists(save_path):
@@ -157,15 +147,6 @@ def crawl(page_num, save_path='./', **kwargs):
     driver.close()
     return codimap_list
 
-def safe_crawl(page, save_path, error_pages):
-    # For error handling in multiprocessing
-    try:
-        crawl(page, save_path)
-    except Exception as e:
-        logger.error(f"{page} page crawling failed")
-        logger.error(e)
-        error_pages.append(page)
-
 
 # main function
 if __name__ == "__main__":
@@ -176,58 +157,27 @@ if __name__ == "__main__":
     logger.info(f"Save path: {args.save_path}")
     logger.info(f"Log path: {args.log_path}")
     logger.info(f"Debug mode: {args.debug}")
-    logger.info(f"Number of workers: {args.num_workers}")
 
-    # List containing error pages - for multiprocessing (shared memory)
     error_pages_single = []
-    manager = multiprocessing.Manager()
-    error_pages = manager.list()
-
-    # Multiprocessing feature for 4 processes
-    page_list = []
-    for i in range(args.start_page, args.end_page+1, args.num_workers):
-        page_list.append((i, min(i+args.num_workers-1, args.end_page)))
     
-    if args.num_workers > 1:
-        # Multiprocessing
-        for pages in page_list:
-            logger.info(f"{pages[0]}-{pages[1]} page crawling started")
-            logger.info(f"Each page will be assigned to a single process")
-
-            # Assign each page to a process
-            processes = []
-            for page in range(pages[0], pages[1]+1):
-                logger.info(f"Process for {page} page started")
-                p = multiprocessing.Process(target=safe_crawl, args=(page, args.save_path, error_pages))
-                p.start()
-                processes.append(p)
-            
-            for p in processes:
-                p.join()
-            
-            logger.info(f"{pages[0]}-{pages[1]} page crawling finished")
-    else:
-        # Single process
-        # First get all file names in the save path
-        file_names = os.listdir(args.save_path)
-        file_names = [int(file_name.split('_')[-1].split('.')[0]) for file_name in file_names]
-        
-        # Get pages that are not crawled yet
-        page_list = [page for page in range(args.start_page, args.end_page+1) if page not in file_names]
-
-        # Show pages that are not crawled yet
-        logger.info(f"Pages that are not crawled yet: {page_list}")
-
-        for page in page_list:
-            logger.info(f"{page} page crawling started")
-            try:
-                crawl(page, args.save_path)
-            except Exception as e:
-                logger.error(f"{page} page crawling failed")
-                logger.error(e)
-                error_pages_single.append(page)
-                
-            logger.info(f"{page} page crawling finished")
+    # Single process
+    # First get all file names in the save path
+    file_names = os.listdir(args.save_path)
+    file_names = [int(file_name.split('_')[-1].split('.')[0]) for file_name in file_names]
     
-    # Print error pages
-    logger.info(f"Error pages: {error_pages}")
+    # Get pages that are not crawled yet
+    page_list = [page for page in range(args.start_page, args.end_page+1) if page not in file_names]
+
+    # Show pages that are not crawled yet
+    logger.info(f"Pages that are not crawled yet: {page_list}")
+
+    for page in page_list:
+        logger.info(f"{page} page crawling started")
+        try:
+            crawl(page, args.save_path)
+        except Exception as e:
+            logger.error(f"{page} page crawling failed")
+            logger.error(e)
+            error_pages_single.append(page)
+            
+        logger.info(f"{page} page crawling finished")
