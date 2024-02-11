@@ -1,3 +1,51 @@
+# Add code for crawling.
+# key differences
+1. run.sh file is not required to run the file.
+2. Hashtags are now available for crawling.
+prerequisite.sh file is added for running the file successfully.
+Operate the 'prerequisite.sh' file in linux environment (wsl for windows).
+4. All modified files are related to "Crawling_troubleshoot" folder, but not "Crawling" folder. Modifications in "Crawling" folder's files shall be ignored.
+
+# How to run the code
+## 1. Get access to the given directory
+```cd /Spot-on/Crawling_troubleshoot/```
+
+## 2. Run requirements.txt file and prerequisite.sh file
+### Powershell environment
+```pip install -r requirements.txt```
+
+### Linux (wsl) environment
+```sh ./prerequisite.sh```
+
+## 3. Run crawling.py file for crawling
+### Command code on powershell
+```python3 crawling.py --start_page=$PAGE_NUM --end_page=$PAGE_NUM --mode=$MODE --sleep_time=$INTEGER```
+
+### The example of the command
+```python3 crawling.py --start_page=1 --end_page=1 --mode=display --sleep_time=1```
+
+### Recommended command for running the file (running free from any interruption)
+```nohup python3 crawling.py --start_page=$PAGE_NUM --end_page=$PAGE_NUM --mode=headless --sleep_time=1 > /any/path/you/want/log.txt 2>&1 &```
+
+# Cautions
+## Caution no.1
+Chrome version is crucial for running the crawling scripts. Check whether the chromeDriver version is 114 (Automatically updated chromeDriver is possibly 121) and change if downgrading is needed. If the file runs successfully without changing the ChromeDriver version, then you may continue.
+
+If downgraded is required, check the link below and make sure to save the caches or any other important information for personal usage. Not saving the information will lose passwords saved for automatic sign in, and any other potential uncomfortable situations.
+
+### how to save data
+https://support.google.com/chrome/a/answer/9917429?sjid=8941516805383519014-AP
+(The writer of this md forgot to save the file, so lost the information and equally failed in trying this code)
+
+### how to downgrade the chromedriver version
+https://hotel-iu.tistory.com/886 (primarily recommended to read)
+https://support.google.com/chrome/a/answer/7125792?hl=ko (secondly recommended if anything is uncertain from the first url link)
+
+## Caution no.2
+The file does not guarantee for successfully running in 'vessl' environment. Local environment is recommended.
+
+
+
 # 무신사 코디맵 크롤링 코드
 
 **멀티프로세싱 기능 추가하였습니다**
