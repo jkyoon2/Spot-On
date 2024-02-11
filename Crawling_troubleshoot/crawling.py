@@ -13,7 +13,7 @@ import time
 import pandas as pd
 import numpy as np
 import time, json, re
-from utils import get_detail_info, get_item_info
+from utils import get_detail_info, get_item_info, get_hashtags, remove_popup
 
 # Argument parser
 parser = argparse.ArgumentParser()
@@ -92,12 +92,12 @@ def crawl(page_num, save_path='./', **kwargs):
     if args.debug:
         data_rows = data_rows[:3]
 
+    # Crawl each codimap
     for i in tqdm(range(len(data_rows)), desc=f"Page {page_num}"):
         driver.get(url)
-        # WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'address')))
-
+        
         logger.info(f"#{i+1} codimap crawling started")
-
+        remove_popup(driver, soup)
         # First get the style tag of the codimap (This dissapears when you click the codimap)
         style_tag = data_rows[i].find('span', attrs={'class':'style-list-information__text'})
         codi_element_xpath = driver.find_element(By.XPATH, f"/html/body/div[3]/div[2]/form/div[4]/div/ul/li[{i+1}]/div[1]/a/div/img")
@@ -105,7 +105,7 @@ def crawl(page_num, save_path='./', **kwargs):
             
         # Wait until the page is loaded
         WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'style_info')))
-
+        
         # Get the codimap information
         soup = BeautifulSoup(driver.page_source, 'lxml')
         detail_info = get_detail_info(soup)
@@ -117,6 +117,7 @@ def crawl(page_num, save_path='./', **kwargs):
         for item_url in detail_info['item_urls']:
             time.sleep(args.sleep_time)
             driver.get(item_url)
+            
             
             WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.ID, "default_top"))
