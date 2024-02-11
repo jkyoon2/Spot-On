@@ -14,6 +14,9 @@ import numpy as np
 import time, json, re
 from utils import get_detail_info, get_item_info
 
+print(f'selenium version : {selenium.__version__}')
+print(f'chrome version : {webdriver.__version__}')
+
 # Argument parser
 parser = argparse.ArgumentParser()
 parser.add_argument('--start_page', type=int, default=1, help='Start page number')

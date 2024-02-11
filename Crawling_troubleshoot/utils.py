@@ -2,6 +2,8 @@ import logging
 import re
 
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 # Get an instance of a logger
@@ -10,13 +12,13 @@ logger = logging.getLogger(__name__)
 # Crawl all hashtags in the page
 def get_hashtags(soup):
     # div class="ui-tag-list"
-    hashtags = soup.find('div', {'class': 'ui-tag-list'})
+    hashtags = soup.find('div', {'class': 'product-detail__sc-uwu3zm-0 gWytWE'})
     if hashtags:
         hashtags = hashtags.find_all('a')
         hashtags = [hashtag.get_text().strip() for hashtag in hashtags]
-
         # Remove # from the beginning of each hashtag
         hashtags = [hashtag[1:] for hashtag in hashtags]
+        print(hashtags)
     
     else:
         hashtags = []
@@ -28,7 +30,7 @@ def get_item_info(driver, soup):
     
     big_category = None
     small_category = None
-    item_hashtags = []
+    item_hashtags = None
     image_url = None
      
     title = soup.find('div', attrs = {'id': 'product-top'}).find('h3').get_text().strip()
@@ -45,16 +47,19 @@ def get_item_info(driver, soup):
             small_category = "none"
     else:
         logging.info(f"Error occured while crawling item_category")
-        
-    # item_hashtags = soup.find_all('a', attrs={'class':'listItem'})
-    # if item_hashtags:
-    #     item_hashtags = [item_hashtag.get_text().strip() for item_hashtag in item_hashtags]
 
-    #     # Remove # from the beginning of each hashtag
-    #     item_hashtags = [item_hashtag[1:] for item_hashtag in item_hashtags]
+    # Get the hashtags from the page        
+    item_hashtags = soup.find('div', {'class': 'product-detail__sc-uwu3zm-0 gWytWE'})
+    if item_hashtags:
+        item_hashtags = item_hashtags.find_all('a')
 
-    # else:
-    #     item_hashtags = []
+        item_hashtags = [item_hashtag.get_text().strip() for item_hashtag in item_hashtags]
+
+        # Remove # from the beginning of each hashtag
+        item_hashtags = [item_hashtag[1:] for item_hashtag in item_hashtags]
+        print(item_hashtags)
+    else:
+        item_hashtags = []
     
     # Get the image url
     item_imgurl = soup.find('div', attrs={'id':'product-left-top'})
@@ -73,8 +78,8 @@ def get_item_info(driver, soup):
         'title': title,
         'big_category': big_category,
         'small_category': small_category,
-        # 'item_hashtags': item_hashtags,
-        'image_url': image_url
+        'item_hashtags': item_hashtags,
+        'image_url': image_url,
     }
 
     
@@ -92,6 +97,24 @@ def get_item_urls(soup):
         item_urls.append(item_url)
     
     return item_urls
+
+def remove_popup(driver, soup):
+    popup = soup.find('div', {'class': 'n-layer-notice'})
+    if popup:
+        # Wait for the button to be clickable
+        # button_xpath = "//*[@id='divpop_goods_lafudgestore_14352']/form/button[1]"
+        try:
+            soup.find('button', {'class': 'btn btn-today'}).click()
+        except:
+            print('notice box closing failed')
+        
+        # try:
+        #     driver.find_element_by_xpath(button_xpath).click()
+        # except:
+        #     print('error occurred while closing the window')
+        return
+    else:
+        return
 
 # Take BeautifulSoup object and crawl the detail page
 def get_detail_info(soup):
