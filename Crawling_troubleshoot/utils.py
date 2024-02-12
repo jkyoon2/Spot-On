@@ -11,13 +11,17 @@ logger = logging.getLogger(__name__)
 
 # Crawl all hashtags in the page
 def get_hashtags(soup):
-    item_hashtags = soup.find('div', {'class': 'product-detail__sc-uwu3zm-0 gWytWE'})
-    if item_hashtags:
-        item_hashtags = item_hashtags.find_all('a')
-        item_hashtags = [item_hashtag.get_text().strip() for item_hashtag in item_hashtags]
 
+    # div class="ui-tag-list"
+    hashtags = soup.find('div', {'class': 'product-detail__sc-uwu3zm-0 gWytWE'})
+    if hashtags:
+        hashtags = hashtags.find_all('a')
+        hashtags = [hashtag.get_text().strip() for hashtag in hashtags]
         # Remove # from the beginning of each hashtag
-        item_hashtags = [item_hashtag[1:] for item_hashtag in item_hashtags]
+        hashtags = [hashtag[1:] for hashtag in hashtags]
+        print(hashtags)
+    
+
     else:
         item_hashtags = []
     
@@ -55,6 +59,8 @@ def get_item_info(driver, soup):
 
         # Remove # from the beginning of each hashtag
         item_hashtags = [item_hashtag[1:] for item_hashtag in item_hashtags]
+        print(item_hashtags)
+
     else:
         item_hashtags = []
     
@@ -98,10 +104,17 @@ def remove_popup(driver, soup):
     popup = soup.find('div', {'class': 'n-layer-notice'})
     if popup:
         # Wait for the button to be clickable
+
+        # button_xpath = "//*[@id='divpop_goods_lafudgestore_14352']/form/button[1]"
         try:
             soup.find('button', {'class': 'btn btn-today'}).click()
         except:
-            logging.info(f"Error occured while closing notice box")
+            print('notice box closing failed')
+        
+        # try:
+        #     driver.find_element_by_xpath(button_xpath).click()
+        # except:
+        #     print('error occurred while closing the window')
 
         return
     else:
