@@ -11,6 +11,7 @@ logger = logging.getLogger(__name__)
 
 # Crawl all hashtags in the page
 def get_hashtags(soup):
+
     # div class="ui-tag-list"
     hashtags = soup.find('div', {'class': 'product-detail__sc-uwu3zm-0 gWytWE'})
     if hashtags:
@@ -20,10 +21,11 @@ def get_hashtags(soup):
         hashtags = [hashtag[1:] for hashtag in hashtags]
         print(hashtags)
     
+
     else:
-        hashtags = []
+        item_hashtags = []
     
-    return hashtags
+    return item_hashtags
 
 # Crawl the item info in the page
 def get_item_info(driver, soup):
@@ -58,6 +60,7 @@ def get_item_info(driver, soup):
         # Remove # from the beginning of each hashtag
         item_hashtags = [item_hashtag[1:] for item_hashtag in item_hashtags]
         print(item_hashtags)
+
     else:
         item_hashtags = []
     
@@ -82,7 +85,6 @@ def get_item_info(driver, soup):
         'image_url': image_url,
     }
 
-    
     return result_dict
     
 # Crawl all urls in the page
@@ -102,6 +104,7 @@ def remove_popup(driver, soup):
     popup = soup.find('div', {'class': 'n-layer-notice'})
     if popup:
         # Wait for the button to be clickable
+
         # button_xpath = "//*[@id='divpop_goods_lafudgestore_14352']/form/button[1]"
         try:
             soup.find('button', {'class': 'btn btn-today'}).click()
@@ -112,6 +115,7 @@ def remove_popup(driver, soup):
         #     driver.find_element_by_xpath(button_xpath).click()
         # except:
         #     print('error occurred while closing the window')
+
         return
     else:
         return

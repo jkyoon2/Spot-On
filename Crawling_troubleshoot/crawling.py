@@ -92,7 +92,9 @@ def crawl(page_num, save_path='./', **kwargs):
     if args.debug:
         data_rows = data_rows[:3]
 
+
     cnt = 0
+
     # Crawl each codimap
     for i in tqdm(range(len(data_rows)), desc=f"Page {page_num}"):
         if cnt == 5:
@@ -100,6 +102,7 @@ def crawl(page_num, save_path='./', **kwargs):
         cnt += 1
         print(f'cnt : {cnt}')
         driver.get(url)
+
         # WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'address')))
         
         logger.info(f"#{i+1} codimap crawling started")
