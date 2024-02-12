@@ -98,6 +98,7 @@ def crawl(page_num, save_path='./', **kwargs):
         
         logger.info(f"#{i+1} codimap crawling started")
         remove_popup(driver, soup)
+        
         # First get the style tag of the codimap (This dissapears when you click the codimap)
         style_tag = data_rows[i].find('span', attrs={'class':'style-list-information__text'})
         codi_element_xpath = driver.find_element(By.XPATH, f"/html/body/div[3]/div[2]/form/div[4]/div/ul/li[{i+1}]/div[1]/a/div/img")
@@ -115,6 +116,9 @@ def crawl(page_num, save_path='./', **kwargs):
         item_list = []
         
         for item_url in detail_info['item_urls']:
+            logging.info(f"detail data crawling started")
+            print(f"detail data crawling started")
+
             time.sleep(args.sleep_time)
             driver.get(item_url)
             
@@ -131,6 +135,8 @@ def crawl(page_num, save_path='./', **kwargs):
                 # Remove item_url from item_urls
                 logger.info(f"Item crawling failed. Item url: {item_url}")
                 detail_info['item_urls'].remove(item_url)
+            logging.info(f"detail data crawling ended")
+            print(f"detail data crawling ended")
         
         # Add codimap information to codimap_list
         detail_info['item_list'] = item_list
