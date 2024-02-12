@@ -45,6 +45,7 @@ def get_item_info(driver, soup):
         big_category = item_category[0].strip()
         try:
             small_category = item_category[1].strip()
+            small_category = re.sub(r'\s*\([^)]*\)', '', small_category) 
         except:
             small_category = "none"
     else:
