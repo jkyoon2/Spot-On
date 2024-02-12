@@ -23,3 +23,8 @@ torch==1.13.1
 torchtext==0.14.1
 tqdm==4.36.1
 tzdata==2023.3
+torchvision
+ftfy
+regex
+opencv-contrib-python
+ffmpeg-python
