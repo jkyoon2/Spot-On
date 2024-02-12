@@ -26,7 +26,7 @@ git-lfs pull
 
 ### Install miniconda3
 ```sh
-cd CGDETR
+cd /root
 
 mkdir -p ~/miniconda3
 
@@ -38,7 +38,7 @@ rm -rf ~/miniconda3/miniconda.sh
 
 ~/miniconda3/bin/conda init bash
 
-reset # or restart your terminal
+# Restart the ssh session after running the above command
 ```
 
 ### Create conda environment (**must be** python 3.7)
@@ -55,4 +55,22 @@ conda activate cgdetr
 ### Run the code
 ```sh
 python main.py
+```
+
+
+### CG-DETR Input, Output format
+Input:
+```python
+youtube_url = 'https://youtu.be/QTqvR6vVyfc?si=38hl4xafh7KWRbZX'
+results_dict = run_example(youtube_url, 'A woman is walking on the street.')
+```
+Output:
+```python
+{
+    'query': 'A woman is walking on the street.',
+    'topk_moments': [130, 136, 138, 132, 140],
+    'pred_scores': [-14.5234, -14.2812, -14.5859, ...] # 73
+}
+
+# Currently, images of topk_moments will be saved in the `examples` directory.
 ```
