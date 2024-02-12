@@ -11,17 +11,13 @@ logger = logging.getLogger(__name__)
 
 # Crawl all hashtags in the page
 def get_hashtags(soup):
+    item_hashtags = soup.find('div', {'class': 'product-detail__sc-uwu3zm-0 gWytWE'})
+    if item_hashtags:
+        item_hashtags = item_hashtags.find_all('a')
+        item_hashtags = [item_hashtag.get_text().strip() for item_hashtag in item_hashtags]
 
-    # div class="ui-tag-list"
-    hashtags = soup.find('div', {'class': 'product-detail__sc-uwu3zm-0 gWytWE'})
-    if hashtags:
-        hashtags = hashtags.find_all('a')
-        hashtags = [hashtag.get_text().strip() for hashtag in hashtags]
         # Remove # from the beginning of each hashtag
-        hashtags = [hashtag[1:] for hashtag in hashtags]
-        print(hashtags)
-    
-
+        item_hashtags = [item_hashtag[1:] for item_hashtag in item_hashtags]
     else:
         item_hashtags = []
     
@@ -45,7 +41,6 @@ def get_item_info(driver, soup):
         big_category = item_category[0].strip()
         try:
             small_category = item_category[1].strip()
-            small_category = re.sub(r'\s*\([^)]*\)', '', small_category) 
         except:
             small_category = "none"
     else:
@@ -60,8 +55,6 @@ def get_item_info(driver, soup):
 
         # Remove # from the beginning of each hashtag
         item_hashtags = [item_hashtag[1:] for item_hashtag in item_hashtags]
-        print(item_hashtags)
-
     else:
         item_hashtags = []
     
@@ -102,23 +95,23 @@ def get_item_urls(soup):
     return item_urls
 
 def remove_popup(driver, soup):
+    logging.info(f"\tRemove_popup activated")
     popup = soup.find('div', {'class': 'n-layer-notice'})
     if popup:
+        logging.info(f"\t\tPopup box exist")
+
         # Wait for the button to be clickable
-
-        # button_xpath = "//*[@id='divpop_goods_lafudgestore_14352']/form/button[1]"
         try:
-            soup.find('button', {'class': 'btn btn-today'}).click()
+            button = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.CLASS_NAME, "btn-today"))
+            )
+            # Click the button
+            button.click()           
         except:
-            print('notice box closing failed')
-        
-        # try:
-        #     driver.find_element_by_xpath(button_xpath).click()
-        # except:
-        #     print('error occurred while closing the window')
-
+            logging.info(f"\t\t\tError occured while closing notice box")
         return
     else:
+        logging.info(f"\t\tNo popup box in the website")
         return
 
 # Take BeautifulSoup object and crawl the detail page
