@@ -41,6 +41,7 @@ def get_item_info(driver, soup):
         big_category = item_category[0].strip()
         try:
             small_category = item_category[1].strip()
+            small_category = re.sub(r'\s*\([^)]*\)', '', small_category) 
         except:
             small_category = "none"
     else:
@@ -95,7 +96,6 @@ def get_item_urls(soup):
     return item_urls
 
 def remove_popup(driver, soup):
-    logging.info(f"\tRemove_popup activated")
     popup = soup.find('div', {'class': 'n-layer-notice'})
     if popup:
         logging.info(f"\t\tPopup box exist")
@@ -111,7 +111,6 @@ def remove_popup(driver, soup):
             logging.info(f"\t\t\tError occured while closing notice box")
         return
     else:
-        logging.info(f"\t\tNo popup box in the website")
         return
 
 # Take BeautifulSoup object and crawl the detail page
