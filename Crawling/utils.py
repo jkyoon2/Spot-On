@@ -1,6 +1,9 @@
 import logging
 import re
 
+from selenium.webdriver.common.by import By
+
+
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
 
@@ -21,49 +24,60 @@ def get_hashtags(soup):
     return hashtags
 
 # Crawl the item info in the page
-def get_item_info(soup):
+def get_item_info(driver, soup):
+    
     big_category = None
     small_category = None
     item_hashtags = []
     image_url = None
-    title = soup.find('span', attrs={'class':'product_title'}).find('em').get_text().strip()
-    item_category = soup.find('p', attrs={'class':'item_categories'})
+     
+    title = soup.find('div', attrs = {'id': 'product-top'}).find('h3').get_text().strip()
+    # title = soup.find('div', attrs={'class':'product-detail__sc-1klhlce-1 hMdBOW'}).find('h3').get_text().strip()
+    item_category = driver.find_element(By.XPATH, '/html/body/div[3]/div[2]/div[3]/div/div[1]').text
+    # item_category = soup.find('div', attrs={'class':'product-detail__sc-up77yl-0 htaeEr'})
+    
     if item_category:
-        big_category = item_category.find_all('a')[0].get_text().strip()
+        item_category = item_category.replace('\n', '').split(' > ')
+        big_category = item_category[0].strip()
         try:
-            small_category = item_category.find_all('a')[1].get_text().strip()
+            small_category = item_category[1].strip()
         except:
             small_category = "none"
     else:
         logging.info(f"Error occured while crawling item_category")
+        
+    # item_hashtags = soup.find_all('a', attrs={'class':'listItem'})
+    # if item_hashtags:
+    #     item_hashtags = [item_hashtag.get_text().strip() for item_hashtag in item_hashtags]
 
-    item_hashtags = soup.find_all('a', attrs={'class':'listItem'})
-    if item_hashtags:
-        item_hashtags = [item_hashtag.get_text().strip() for item_hashtag in item_hashtags]
+    #     # Remove # from the beginning of each hashtag
+    #     item_hashtags = [item_hashtag[1:] for item_hashtag in item_hashtags]
 
-        # Remove # from the beginning of each hashtag
-        item_hashtags = [item_hashtag[1:] for item_hashtag in item_hashtags]
-
-    else:
-        item_hashtags = []
+    # else:
+    #     item_hashtags = []
     
     # Get the image url
-    item_imgurl = soup.find('img', attrs={'class':'plus_cursor'})
+    item_imgurl = soup.find('div', attrs={'id':'product-left-top'})
+    
     if item_imgurl:
-        image_url = item_imgurl['src']
+        img_tag = item_imgurl.find('img')
+        image_url = img_tag['src']
+        
         if image_url.startswith('//'):
             image_url = 'https:' + image_url
     else:
         logging.info(f"Error occured while crawling item image_url")
 
+    
     result_dict = {
         'title': title,
         'big_category': big_category,
         'small_category': small_category,
-        'item_hashtags': item_hashtags,
+        # 'item_hashtags': item_hashtags,
         'image_url': image_url
     }
 
+    
     return result_dict
     
 # Crawl all urls in the page
