@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
     />
     <!----======== CSS ======== -->
-    <link rel="stylesheet" href="../shared/style.css">
+    <link rel="stylesheet" href="../page4_video/style.css">
     
     <!----===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -114,6 +114,34 @@
             </ul>
         </nav>
     </section>
+
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+        <header>Find Item in the Video</header>
+        <!-- URL 입력 필드 -->
+        <div class="url-input">
+          <span class="title">Paste video url:</span>
+          <div class="field">
+            <input type="text" placeholder="https://www.youtube.com/watch?v=lqwdD2ivIbM" required>
+            <input class="hidden-input" type="hidden" name="imgurl">
+            <span class="bottom-line"></span>
+          </div>
+        </div>
+        <!-- 검색어 입력 필드 (순서 변경됨) -->
+        <div class="url-input">
+          <span class="title">Enter the item you are looking for in the video:</span>
+          <div class="field">
+            <input type="text" placeholder="Type here..." name="searchTerm">
+            <span class="bottom-line"></span>
+          </div>
+        </div>
+        <div class="preview-area">
+          <img class="thumbnail" src="" alt="">
+          <i class="icon fas fa-cloud-download-alt"></i>
+          <span>Paste video url to see preview</span>
+        </div>
+        <button class="download-btn" type="submit" name="button">Search</button>
+      </form>
+    
 
     <script src="../page4_video/script.js"></script>
     <script src="../shared/common.js"></script>
