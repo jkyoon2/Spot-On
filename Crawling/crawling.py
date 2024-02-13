@@ -6,22 +6,20 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 from tqdm import tqdm
 
 import time
 import pandas as pd
 import numpy as np
 import time, json, re
-from utils import get_detail_info, get_item_info
-
-print(f'selenium version : {selenium.__version__}')
-print(f'chrome version : {webdriver.__version__}')
+from utils import get_detail_info, get_item_info, get_hashtags, remove_popup
 
 # Argument parser
 parser = argparse.ArgumentParser()
 parser.add_argument('--start_page', type=int, default=1, help='Start page number')
 parser.add_argument('--end_page', type=int, default=2, help='End page number')
-parser.add_argument('--mode', type=str, default='display', help='Mode of crawling (display, headless, server)')
+parser.add_argument('--mode', type=str, default='server', help='Mode of crawling (display, headless, server)')
 parser.add_argument('--save_path', type=str, default='./outputs/', help='Path to save the data')
 parser.add_argument('--log_path', type=str, default='./', help='Path to save the log')
 parser.add_argument('--debug', action='store_true', help='Debugging purpose')
@@ -44,7 +42,7 @@ elif args.mode == 'headless':
 elif args.mode == 'server':
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
-    options.add_argument("--disable-gpu")
+    
 else:
     logging.info("Invalid mode. Please check the mode again. (display, headless, server))")
     exit()
@@ -94,56 +92,71 @@ def crawl(page_num, save_path='./', **kwargs):
     if args.debug:
         data_rows = data_rows[:3]
 
-    for i in tqdm(range(len(data_rows)), desc=f"Page {page_num}"):
-        driver.get(url)
-        # WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'address')))
-
-        logger.info(f"#{i+1} codimap crawling started")
-
-        # First get the style tag of the codimap (This dissapears when you click the codimap)
-        style_tag = data_rows[i].find('span', attrs={'class':'style-list-information__text'})
-
-        try:
+    try:
+        # Crawl each codimap
+        for i in tqdm(range(len(data_rows)), desc=f"Page {page_num}"):
+            driver.get(url)
+            
+            logger.info(f"#{i+1} codimap crawling started")
+            logger.info(f"Codimap URL: {url}")
+            remove_popup(driver, soup)
+            
+            # First get the style tag of the codimap (This dissapears when you click the codimap)
+            style_tag = data_rows[i].find('span', attrs={'class':'style-list-information__text'})
             codi_element_xpath = driver.find_element(By.XPATH, f"/html/body/div[3]/div[2]/form/div[4]/div/ul/li[{i+1}]/div[1]/a/div/img")
             codi_element_xpath.click() # Click the codi map and go to the detail page.
-        except:
-            logger.info(f"#{i+1} codimap crawling failed - when clicking the codimap")
-            logger.info(f"URL: {url}")
-            continue
+                
+            # Wait until the page is loaded
+            WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'style_info')))
             
-        # Wait until the page is loaded
-        WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'style_info')))
-
-        # Get the codimap information
-        soup = BeautifulSoup(driver.page_source, 'lxml')
-        detail_info = get_detail_info(soup)
-        detail_info['style_tag'] = style_tag.text
-        
-        # Get items from codi map
-        item_list = []
-        
-        for item_url in detail_info['item_urls']:
-            time.sleep(args.sleep_time)
-            driver.get(item_url)
-            
-            WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.ID, "default_top"))
-            )
-
+            # Get the codimap information
             soup = BeautifulSoup(driver.page_source, 'lxml')
             try:
-                item_info = get_item_info(driver, soup)
-                item_list.append(item_info)
+                detail_info = get_detail_info(soup)
+                detail_info['style_tag'] = style_tag.text
             except:
-                # Remove item_url from item_urls
-                logger.info(f"Item crawling failed. Item url: {item_url}")
-                detail_info['item_urls'].remove(item_url)
-        
-        # Add codimap information to codimap_list
-        detail_info['item_list'] = item_list
-        codimap_list.append(detail_info)
+                logger.info(f"Error occured while crawling detail information. Page: {page_num}, #{i+1}")
+                continue
+            
+            # Get items from codi map
+            item_list = []
+            
+            # For each item in the codimap, get the item information
+            for j, item_url in enumerate(detail_info['item_urls']):
+                logger.info(f"{j+1}th item crawling started. Item url: {item_url}")
+                time.sleep(args.sleep_time)
+                driver.get(item_url)
+                
+                WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.ID, "default_top"))
+                )
 
-        logger.info(f"Page {page_num}, #{i+1} codimap crawling finished")
+                soup = BeautifulSoup(driver.page_source, 'lxml')
+                
+                try:
+                    item_info = get_item_info(driver, soup)
+                    item_list.append(item_info)
+                except:
+                    # Remove item_url from item_urls
+                    logger.info(f"Item crawling failed. Item url: {item_url}")
+                    detail_info['item_urls'].remove(item_url)
+
+            # Add codimap information to codimap_list
+            detail_info['item_list'] = item_list
+            codimap_list.append(detail_info)
+            logger.info(f"Page {page_num}, #{i+1} codimap crawling finished")
+    
+    except Exception as e:
+        logger.info(f"Error occured while crawling. Page: {page_num}, #{i+1}")
+        logger.info(f"Saving the data and closing the driver")
+        # Save the data in json format
+        if not os.path.exists(save_path):
+            os.makedirs(save_path)
+        with open(os.path.join(save_path, f"codimap_list_{page_num}.json"), 'w', encoding='utf-8') as json_file:
+            json.dump(codimap_list, json_file, ensure_ascii=False, indent=4)
+        
+        driver.close()
+        return codimap_list
 
     # Save the data in json format
     if not os.path.exists(save_path):
