@@ -38,3 +38,5 @@ nohup ./run.sh > logs/crawling.log 2>&1 &
 ps -ef | grep crawling.py
 kill -9 <PID>
 ```
+
+## 5. You can find the crawled data in the `outputs` directory
