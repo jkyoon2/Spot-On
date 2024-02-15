@@ -1,0 +1,60 @@
+[
+    {
+        "title": "오늘의 골프 웨어",
+        "styling_date": "2022.03.18",
+        "view_num": 1315,
+        "styling_txt": "스티치 디테일이 돋보이는 나일론 재킷과 조거 팬츠를 스타일링한 후 볼캡을 더해 완성한 골프 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/13699/detail_13699_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2125039"
+        ],
+        "hashtags": [],
+        "style_tag": "골프",
+        "item_list": [
+            {
+                "title": "스페이스쉽 로고 모자 - 블루",
+                "big_category": "스포츠/용품",
+                "small_category": "스포츠모자",
+                "item_hashtags": [
+                    "21FW신상품",
+                    "골프캡",
+                    "골프모자",
+                    "캡모자"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210911/2125039/2125039_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "데일리로 좋아",
+        "styling_date": "2022.03.18",
+        "view_num": 766,
+        "styling_txt": "로고가 돋보이는 스웨트셔츠와 카고 팬츠를 코디하고 보스턴백으로 포인트를 준 골프 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/13698/detail_13698_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2345198",
+            "https://www.musinsa.com/app/goods/2366800"
+        ],
+        "hashtags": [],
+        "style_tag": "골프",
+        "item_list": [
+            {
+                "title": "넥스라이트 카모 골프 보스턴백 5LXB2201",
+                "big_category": "스포츠/용품",
+                "small_category": "스포츠가방",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220208/2345198/2345198_1_500.jpg"
+            },
+            {
+                "title": "페어웨이 다이얼 21(1EM00028D121)",
+                "big_category": "스포츠/용품",
+                "small_category": "스포츠신발",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220217/2366800/2366800_2_500.jpg"
+            }
+        ]
+    }
+]

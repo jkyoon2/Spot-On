@@ -1,0 +1,80 @@
+[
+    {
+        "title": "원 마일 셋업",
+        "styling_date": "2021.08.30",
+        "view_num": 2649,
+        "styling_txt": "편하게 입기 좋은 후드 집업과 조거 팬츠를 코디하고 백팩으로 완성한 이지 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/6074/detail_6074_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1550295",
+            "https://www.musinsa.com/app/goods/1916453"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "H21 노이즈캔슬링 블루투스 헤드폰",
+                "big_category": "디지털/테크",
+                "small_category": "음향가전",
+                "item_hashtags": [
+                    "홀리데이"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200814/1550295/1550295_1_500.jpg"
+            },
+            {
+                "title": "마카롱 MACAROON Dark",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "뮬",
+                    "뮬스니커즈",
+                    "뮬운동화",
+                    "뮬블로퍼",
+                    "뮬슬립온",
+                    "스니커즈뮬",
+                    "남자뮬"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210422/1916453/1916453_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "러블리한 연출",
+        "styling_date": "2021.08.30",
+        "view_num": 803,
+        "styling_txt": "도트 패턴이 돋보이는 맥시 원피스에 숄더백과 플랫 슈즈를 더해 연출한 로맨틱 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/6073/detail_6073_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2064802",
+            "https://www.musinsa.com/app/goods/1287031",
+            "https://www.musinsa.com/app/goods/1848155"
+        ],
+        "hashtags": [],
+        "style_tag": "로맨틱",
+        "item_list": [
+            {
+                "title": "Elly pleated dress - Black dot",
+                "big_category": "원피스",
+                "small_category": "맥시 원피스",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210814/2064802/2064802_1_500.jpg"
+            },
+            {
+                "title": "Petit Stelleta Tiara 14K 목걸이 (JJT1NQ7AS017R4420)",
+                "big_category": "주얼리",
+                "small_category": "목걸이/펜던트",
+                "item_hashtags": [
+                    "주얼리"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200201/1287031/1287031_2_500.jpg"
+            },
+            {
+                "title": "Kindly_kw0865_2cm_플랫",
+                "big_category": "신발",
+                "small_category": "플랫 슈즈",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210316/1848155/1848155_1_500.jpg"
+            }
+        ]
+    }
+]

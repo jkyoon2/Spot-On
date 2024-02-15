@@ -1,0 +1,75 @@
+[
+    {
+        "title": "오늘의 캐주얼 룩",
+        "styling_date": "2021.12.17",
+        "view_num": 1696,
+        "styling_txt": "레터링이 돋보이는 후드 티셔츠와 조거 팬츠를 매치하고 숏 패딩으로 완성한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/10298/detail_10298_1_500.jpg?202402140402",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2204921",
+            "https://www.musinsa.com/app/goods/2200836",
+            "https://www.musinsa.com/app/goods/1878965",
+            "https://www.musinsa.com/app/goods/1627379"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "오버핏 어센틱 후드 [4COLOR]",
+                "big_category": "상의",
+                "small_category": "후드 티셔츠",
+                "item_hashtags": [
+                    "후드티셔츠",
+                    "오버핏후드",
+                    "후드티",
+                    "루즈핏후드",
+                    "남녀공용",
+                    "기모후드",
+                    "후디"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211028/2204921/2204921_3_500.jpg"
+            },
+            {
+                "title": "CARGO SWEAT 조거 팬츠 Black",
+                "big_category": "바지",
+                "small_category": "코튼 팬츠",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211027/2200836/2200836_3_500.jpg"
+            },
+            {
+                "title": "DV.LOT 641 Logo Beanie -ORANGE-",
+                "big_category": "모자",
+                "small_category": "비니",
+                "item_hashtags": [
+                    "니트비니",
+                    "모자",
+                    "비니모자",
+                    "여자비니",
+                    "비니",
+                    "남자비니"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210403/1878965/1878965_1_500.jpg"
+            },
+            {
+                "title": "스퀘어 미니 숄더 크로스백 (카멜)",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "가방",
+                    "여자가방",
+                    "미니백",
+                    "옥스포드",
+                    "아메카지",
+                    "스퀘어백"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200928/1627379/1627379_1_500.jpg"
+            }
+        ]
+    }
+]

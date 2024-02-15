@@ -1,0 +1,114 @@
+[
+    {
+        "title": "요가 고수",
+        "styling_date": "2022.03.31",
+        "view_num": 780,
+        "styling_txt": "라벤더 컬러가 돋보이는 브라 탑과 조거 팬츠를 코디한 후 스니커즈로 마무리한 스포츠 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14199/detail_14199_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2210496",
+            "https://www.musinsa.com/app/goods/1506849"
+        ],
+        "hashtags": [],
+        "style_tag": "스포티",
+        "item_list": [
+            {
+                "title": "Basketball Logo Boston Bag_IVORY",
+                "big_category": "스포츠/용품",
+                "small_category": "스포츠가방",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211102/2210496/2210496_3_500.jpg"
+            },
+            {
+                "title": "푸마 스매쉬 벌크 - 화이트:블랙 / 359622-05",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "벌커나이즈드",
+                    "벌크",
+                    "스니커즈",
+                    "스매쉬",
+                    "스매쉬벌크",
+                    "레더운동화",
+                    "레더스니커즈"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200706/1506849/1506849_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "캠퍼스 스타일링",
+        "styling_date": "2022.03.30",
+        "view_num": 2227,
+        "styling_txt": "레터링이 매력적인 니트 베스트와 셔츠를 레이어드한 후 볼캡으로 완성한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14144/detail_14144_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2289382",
+            "https://www.musinsa.com/app/goods/2367392",
+            "https://www.musinsa.com/app/goods/2045144",
+            "https://www.musinsa.com/app/goods/2393431",
+            "https://www.musinsa.com/app/goods/2322214"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "와이드 니트 베스트_라이트 그레이",
+                "big_category": "아우터",
+                "small_category": "베스트",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220103/2289382/2289382_2_500.jpg"
+            },
+            {
+                "title": "더블 버튼 옥스포드 셔츠_화이트",
+                "big_category": "상의",
+                "small_category": "셔츠/블라우스",
+                "item_hashtags": [
+                    "셔츠",
+                    "긴팔셔츠",
+                    "남방"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220217/2367392/2367392_2_500.jpg"
+            },
+            {
+                "title": "와이드 스트링 팬츠_블랙",
+                "big_category": "바지",
+                "small_category": "트레이닝/조거 팬츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210730/2045144/2045144_16955980905451_500.jpg"
+            },
+            {
+                "title": "가드닝 클럽 베이스볼 캡_그린",
+                "big_category": "모자",
+                "small_category": "캡/야구 모자",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220302/2393431/2393431_1_500.jpg"
+            },
+            {
+                "title": "101 나파 블랙 / 26409001",
+                "big_category": "신발",
+                "small_category": "부츠",
+                "item_hashtags": [
+                    "신사 단독",
+                    "신사 스토어에서만 단독 판매하는 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220124/2322214/2322214_3_500.jpg"
+            }
+        ]
+    }
+]

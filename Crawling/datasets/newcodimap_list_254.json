@@ -1,0 +1,81 @@
+[
+    {
+        "title": "남다른 감각",
+        "styling_date": "2022.05.04",
+        "view_num": 1298,
+        "styling_txt": "스트라이프 패턴이 돋보이는 와이드 핏 팬츠와 반팔 티셔츠를 스타일링한 후 메신저 백으로 포인트를 준 스트릿 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15511/detail_15511_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2329415"
+        ],
+        "hashtags": [],
+        "style_tag": "스트릿",
+        "item_list": [
+            {
+                "title": "SEERSUCKER WIDE PANTS - WHITE",
+                "big_category": "바지",
+                "small_category": "슈트 팬츠/슬랙스",
+                "item_hashtags": [
+                    "남자슬랙스",
+                    "바지",
+                    "하의",
+                    "22S/S컬렉션"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220126/2329415/2329415_2_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "여름 즐기기",
+        "styling_date": "2022.05.04",
+        "view_num": 1981,
+        "styling_txt": "카무플라주 패턴이 돋보이는 숏 팬츠와 반팔 티셔츠를 코디한 후 스니커즈로 연출한 스트릿 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15510/detail_15510_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2391362",
+            "https://www.musinsa.com/app/goods/2264593",
+            "https://www.musinsa.com/app/goods/1280137"
+        ],
+        "hashtags": [],
+        "style_tag": "스트릿",
+        "item_list": [
+            {
+                "title": "LMC ACTIVE GEAR BMD SHORTS camo",
+                "big_category": "바지",
+                "small_category": "숏 팬츠",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220302/2391362/2391362_3_500.jpg"
+            },
+            {
+                "title": "ORDINARY TINT(ORANGE)",
+                "big_category": "선글라스/안경테",
+                "small_category": "선글라스",
+                "item_hashtags": [
+                    "신사 단독",
+                    "신사 스토어에서만 단독 판매하는 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211209/2264593/2264593_1_500.jpg"
+            },
+            {
+                "title": "20 2웨이 베리어스백-블랙",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "가방",
+                    "크로스백",
+                    "베리어스백",
+                    "숄더백",
+                    "젠더리스",
+                    "신학기"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200123/1280137/1280137_16987189331014_500.jpg"
+            }
+        ]
+    }
+]

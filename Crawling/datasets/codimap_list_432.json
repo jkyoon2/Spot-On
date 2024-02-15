@@ -1,0 +1,87 @@
+[
+    {
+        "title": "추천 셋업 코디",
+        "styling_date": "2021.07.21",
+        "view_num": 4706,
+        "styling_txt": "편하게 입기 좋은 아노락 셋업과 볼캡으로 완성한 이지 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/4694/detail_4694_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2000168",
+            "https://www.musinsa.com/app/goods/1688248"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "[SET] 스테디 라이트 반팔 아노락 3P 셋업 베이지",
+                "big_category": "아우터",
+                "small_category": "아노락 재킷",
+                "item_hashtags": [
+                    "반팔아노락",
+                    "조거팬츠",
+                    "셋업",
+                    "아노락",
+                    "반바지",
+                    "윈드브레이커",
+                    "트레이닝"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210617/2000168/2000168_4_500.jpg"
+            },
+            {
+                "title": "스트롤백 (블랙)",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "샤코슈백",
+                    "미니크로스백",
+                    "남자가방",
+                    "여자가방",
+                    "미니백"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20201112/1688248/1688248_1_500.png"
+            }
+        ]
+    },
+    {
+        "title": "멋있게 즐기기",
+        "styling_date": "2021.07.21",
+        "view_num": 7206,
+        "styling_txt": "편하게 입기 좋은 반팔 티셔츠와 숏 팬츠를 코디하고 스니커즈로 활동성을 더한 스포츠 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/4693/detail_4693_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/581419",
+            "https://www.musinsa.com/app/goods/1744960"
+        ],
+        "hashtags": [],
+        "style_tag": "스포티",
+        "item_list": [
+            {
+                "title": "비슬론 힙색 / 블랙",
+                "big_category": "가방",
+                "small_category": "웨이스트 백",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20170622/581419/581419_3_500.jpg"
+            },
+            {
+                "title": "오즈위고 - 브라운 / FX6029",
+                "big_category": "스니커즈",
+                "small_category": "패션스니커즈화",
+                "item_hashtags": [
+                    "오즈위고",
+                    "OZWEEGO",
+                    "어글리슈즈",
+                    "어글리운동화",
+                    "러닝화",
+                    "런닝화",
+                    "홀리데이",
+                    "슈퍼세일",
+                    "스니커PT브랜드데이"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210112/1744960/1744960_3_500.jpg"
+            }
+        ]
+    }
+]

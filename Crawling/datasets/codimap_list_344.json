@@ -1,0 +1,109 @@
+[
+    {
+        "title": "크리스마스 무드",
+        "styling_date": "2021.12.09",
+        "view_num": 1345,
+        "styling_txt": "그래픽이 돋보이는 스웨트셔츠와 데님 팬츠를 매치하고 머플러로 완성한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/9988/detail_9988_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2143095",
+            "https://www.musinsa.com/app/goods/2221779",
+            "https://www.musinsa.com/app/goods/1738089",
+            "https://www.musinsa.com/app/goods/1210025",
+            "https://www.musinsa.com/app/goods/1017600"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "탈부착 후드 울 더블코트_네이비",
+                "big_category": "아우터",
+                "small_category": "겨울 더블 코트",
+                "item_hashtags": [
+                    "롱코트",
+                    "베이직코트",
+                    "여자코트",
+                    "남자코트",
+                    "겨울코트",
+                    "더블코트",
+                    "오버핏코트"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210923/2143095/2143095_1_500.jpg"
+            },
+            {
+                "title": "SEMI WIDE DENIM PANTS BLUE",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211108/2221779/2221779_1_500.jpg"
+            },
+            {
+                "title": "[패키지] 헤리티지 머플러 + 비니",
+                "big_category": "액세서리",
+                "small_category": "머플러",
+                "item_hashtags": [
+                    "남녀공용",
+                    "머플러",
+                    "목도리",
+                    "패키지",
+                    "비니"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210106/1738089/1738089_1_500.jpg"
+            },
+            {
+                "title": "롱터치 글러브 - 레드",
+                "big_category": "액세서리",
+                "small_category": "장갑",
+                "item_hashtags": [
+                    "글러브",
+                    "기모장갑",
+                    "장갑",
+                    "터치장갑"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20191101/1210025/1210025_1_500.jpg"
+            },
+            {
+                "title": "플레이풀 캔버스 에코백 (그린)",
+                "big_category": "가방",
+                "small_category": "에코백",
+                "item_hashtags": [
+                    "에코백"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20190417/1017600/1017600_6_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "개성 넘쳐!",
+        "styling_date": "2021.12.09",
+        "view_num": 1501,
+        "styling_txt": "그래픽이 매력적인 숏 패딩과 후드 티셔츠를 코디하고 스니커즈로 멋을 더한 스트릿 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/9986/detail_9986_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2148332"
+        ],
+        "hashtags": [],
+        "style_tag": "스트릿",
+        "item_list": [
+            {
+                "title": "MOUNTAIN LANDSCAPE PADDING JACKET [NAVY]",
+                "big_category": "아우터",
+                "small_category": "숏패딩/숏헤비 아우터",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210927/2148332/2148332_1_500.png"
+            }
+        ]
+    }
+]

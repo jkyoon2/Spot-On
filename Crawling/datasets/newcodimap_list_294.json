@@ -1,0 +1,58 @@
+[
+    {
+        "title": "그래픽 더하기",
+        "styling_date": "2022.03.01",
+        "view_num": 5068,
+        "styling_txt": "그래픽이 돋보이는 반팔 티셔츠와 카고 팬츠를 스타일링하고 MA-1 점퍼로 마무리한 스트릿 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/13009/detail_13009_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1900341"
+        ],
+        "hashtags": [],
+        "style_tag": "스트릿",
+        "item_list": [
+            {
+                "title": "FOREST WARS 반팔 티셔츠 Black",
+                "big_category": "상의",
+                "small_category": "반소매 티셔츠",
+                "item_hashtags": [
+                    "반팔티",
+                    "반팔",
+                    "반팔티셔츠",
+                    "그래픽티셔츠",
+                    "포레스트워",
+                    "그래픽반팔",
+                    "디자인반팔",
+                    "ABCOBRANDWEEK"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210415/1900341/1900341_3_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "깔끔하게 즐겨",
+        "styling_date": "2022.03.01",
+        "view_num": 835,
+        "styling_txt": "퍼플 컬러가 돋보이는 파자마 셋업과 언더웨어로 연출한 홈웨어",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/13008/detail_13008_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2293548"
+        ],
+        "hashtags": [],
+        "style_tag": "홈웨어",
+        "item_list": [
+            {
+                "title": "프로그 뮬슬리퍼 라이트",
+                "big_category": "신발",
+                "small_category": "슬리퍼",
+                "item_hashtags": [
+                    "클로그",
+                    "뮬",
+                    "뮬슬리퍼",
+                    "집들이선물"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220105/2293548/2293548_1_500.jpg"
+            }
+        ]
+    }
+]

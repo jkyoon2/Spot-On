@@ -1,0 +1,90 @@
+[
+    {
+        "title": "그런지 백으로 포인트",
+        "styling_date": "2023.12.25",
+        "view_num": 540,
+        "styling_txt": "",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/29239/detail_29239_65876d048fff9_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/3603823",
+            "https://www.musinsa.com/app/goods/3703874",
+            "https://www.musinsa.com/app/goods/3094943",
+            "https://www.musinsa.com/app/goods/3693511",
+            "https://www.musinsa.com/app/goods/3435075",
+            "https://www.musinsa.com/app/goods/3297002"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "RDS 디테쳐블 카라 다운 숏 푸퍼 아이보리",
+                "big_category": "아우터",
+                "small_category": "숏패딩/숏헤비 아우터",
+                "item_hashtags": [
+                    "다운자켓",
+                    "아우터",
+                    "패딩점퍼",
+                    "숏패딩",
+                    "다운점퍼",
+                    "패딩"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20231005/3603823/3603823_16964733728983_500.png"
+            },
+            {
+                "title": "RUGBY SWEATER GREY/CHARCOAL",
+                "big_category": "상의",
+                "small_category": "니트/스웨터",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20231110/3703874/3703874_16996020323854_500.jpg"
+            },
+            {
+                "title": "트랙 워시드 데님[인디고투톤]",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20230220/3094943/3094943_16772292394976_500.jpg"
+            },
+            {
+                "title": "그래픽 로고 헤어리 비니 [3 COLOR]",
+                "big_category": "모자",
+                "small_category": "비니",
+                "item_hashtags": [
+                    "겨울비니",
+                    "로고비니",
+                    "니트비니",
+                    "숏비니",
+                    "털모자",
+                    "앙고라비니",
+                    "모헤어"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20231108/3693511/3693511_16995819105032_500.jpg"
+            },
+            {
+                "title": "그런지 크로스 빅백 블랙",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20230731/3435075/3435075_16928622897654_500.jpg"
+            },
+            {
+                "title": "VTG WHITE 독일군 PREMIUM",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20230515/3297002/3297002_17030500873182_500.jpg"
+            }
+        ]
+    }
+]

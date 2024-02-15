@@ -1,0 +1,126 @@
+[
+    {
+        "title": "따라 입어봐",
+        "styling_date": "2022.03.25",
+        "view_num": 2182,
+        "styling_txt": "그래픽이 돋보이는 스웨트셔츠와 데님 팬츠를 코디하고 백팩으로 완성한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14014/detail_14014_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1294464",
+            "https://www.musinsa.com/app/goods/2389784",
+            "https://www.musinsa.com/app/goods/1192883",
+            "https://www.musinsa.com/app/goods/1812266"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "wide one tuck denim pants indigo washed",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [
+                    "데님",
+                    "와이드데님팬츠",
+                    "팬츠",
+                    "캐리오버",
+                    "데님팬츠",
+                    "원턱팬츠",
+                    "워싱데님",
+                    "데님와이드핏",
+                    "데님진청"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200206/1294464/1294464_1_500.jpg"
+            },
+            {
+                "title": "nylon camp cap green",
+                "big_category": "모자",
+                "small_category": "캡/야구 모자",
+                "item_hashtags": [
+                    "캐리오버",
+                    "캠프캡",
+                    "모자"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220228/2389784/2389784_1_500.jpg"
+            },
+            {
+                "title": "CARRY BACKPACK - BEIGE",
+                "big_category": "가방",
+                "small_category": "백팩",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20191018/1192883/1192883_2_500.jpg"
+            },
+            {
+                "title": "오리지날 플러스 피크닉 _ 다크 그린",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210224/1812266/1812266_16764408042995_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "캠핑의 매력",
+        "styling_date": "2022.03.25",
+        "view_num": 1454,
+        "styling_txt": "루즈 핏 긴팔 티셔츠와 카고 팬츠를 매치하고 버킷햇으로 마무리한 아웃도어 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14017/detail_14017_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/983196",
+            "https://www.musinsa.com/app/goods/525983",
+            "https://www.musinsa.com/app/goods/2342806",
+            "https://www.musinsa.com/app/goods/1513714"
+        ],
+        "hashtags": [],
+        "style_tag": "스포티",
+        "item_list": [
+            {
+                "title": "CARGO STRING PANTS _ BLACK",
+                "big_category": "바지",
+                "small_category": "트레이닝/조거 팬츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20190314/983196/983196_2_500.jpg"
+            },
+            {
+                "title": "부니햇 (카키)",
+                "big_category": "모자",
+                "small_category": "캡/야구 모자",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20170323/525983/525983_1_500.jpg"
+            },
+            {
+                "title": "CORDURA 52L Multi Bag (CAMO)",
+                "big_category": "스포츠/용품",
+                "small_category": "캠핑용품",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220207/2342806/2342806_1_500.jpg"
+            },
+            {
+                "title": "XA 프로 3D ADV - 블랙:마그넷:퀘일",
+                "big_category": "스포츠/용품",
+                "small_category": "스포츠신발",
+                "item_hashtags": [
+                    "트래킹화",
+                    "트레일러닝화",
+                    "트레일런닝화",
+                    "트레킹화",
+                    "XA프로",
+                    "러닝화",
+                    "런닝화"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200713/1513714/1513714_1_500.jpg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "title": "스트릿 무드",
+        "styling_date": "2022.02.25",
+        "view_num": 3722,
+        "styling_txt": "그래픽이 돋보이는 긴팔 티셔츠와 조거 팬츠를 매치한 후 스니커즈로 마무리한 스트릿 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/12948/detail_12948_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2302040"
+        ],
+        "hashtags": [],
+        "style_tag": "스트릿",
+        "item_list": [
+            {
+                "title": "[1Size] Storia L-Sleeve",
+                "big_category": "상의",
+                "small_category": "긴소매 티셔츠",
+                "item_hashtags": [
+                    "롱슬리브",
+                    "긴팔티",
+                    "티셔츠",
+                    "스트릿",
+                    "컨템포러리",
+                    "캐주얼",
+                    "그래픽티셔츠"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220112/2302040/2302040_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "완벽한 조합",
+        "styling_date": "2022.02.25",
+        "view_num": 3057,
+        "styling_txt": "다이아 패턴이 돋보이는 크로셰 베스트와 플리츠스커트를 스타일링한 후 베레로 연출한 걸리시 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/12947/detail_12947_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2231961",
+            "https://www.musinsa.com/app/goods/2231970",
+            "https://www.musinsa.com/app/goods/1420406"
+        ],
+        "hashtags": [],
+        "style_tag": "걸리시",
+        "item_list": [
+            {
+                "title": "스티치 레더 자켓_올리브그린",
+                "big_category": "아우터",
+                "small_category": "레더/라이더스 재킷",
+                "item_hashtags": [
+                    "라이더",
+                    "레더재킷",
+                    "라이더자켓",
+                    "21F/W아우터",
+                    "간절기아우터",
+                    "레더자켓",
+                    "가죽자켓"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211115/2231961/2231961_1_500.jpg"
+            },
+            {
+                "title": "러플 넥 퍼프 블라우스_화이트",
+                "big_category": "상의",
+                "small_category": "셔츠/블라우스",
+                "item_hashtags": [
+                    "봄블라우스",
+                    "겨울블라우스",
+                    "데일리블라우스",
+                    "블라우스",
+                    "가을블라우스"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211115/2231970/2231970_1_500.jpg"
+            },
+            {
+                "title": "Lulu Bag",
+                "big_category": "여성 가방",
+                "small_category": "숄더백",
+                "item_hashtags": [
+                    "가방",
+                    "미니백",
+                    "토트백"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200424/1420406/1420406_1_500.jpg"
+            }
+        ]
+    }
+]

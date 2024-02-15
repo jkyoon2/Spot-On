@@ -1,0 +1,130 @@
+[
+    {
+        "title": "캠퍼스 룩 강추",
+        "styling_date": "2022.03.30",
+        "view_num": 2137,
+        "styling_txt": "캐주얼 무드의 스웨트셔츠와 데님 팬츠를 매치하고 백팩으로 마무리한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14145/detail_14145_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2071212",
+            "https://www.musinsa.com/app/goods/1605649",
+            "https://www.musinsa.com/app/goods/1261853"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "Boucle bear 오버핏 기모 맨투맨 티셔츠 AMM910 (NAVY)",
+                "big_category": "상의",
+                "small_category": "맨투맨/스웨트셔츠",
+                "item_hashtags": [
+                    "맨투맨",
+                    "기모"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210819/2071212/2071212_1_500.jpg"
+            },
+            {
+                "title": "Jupiter 네추럴 베이직 이지핏 데님_IVORY",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200916/1605649/1605649_16856839627131_500.jpg"
+            },
+            {
+                "title": "포켓 테크니컬 스트링 백팩 [블랙]",
+                "big_category": "여성 가방",
+                "small_category": "백팩",
+                "item_hashtags": [
+                    "가방",
+                    "백팩",
+                    "신학기가방"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200103/1261853/1261853_17055427895907_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "세련된 스타일링",
+        "styling_date": "2022.03.29",
+        "view_num": 2009,
+        "styling_txt": "실루엣이 매력적인 오프숄더 티셔츠와 슬랙스를 연출하고 토트백으로 완성한 로맨틱 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14103/detail_14103_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2351239",
+            "https://www.musinsa.com/app/goods/2395103",
+            "https://www.musinsa.com/app/goods/1751922",
+            "https://www.musinsa.com/app/goods/1748785",
+            "https://www.musinsa.com/app/goods/1327868"
+        ],
+        "hashtags": [],
+        "style_tag": "로맨틱",
+        "item_list": [
+            {
+                "title": "SLIM SPAN COTTON 3/4 OFF SHOULDER TSHIRTS OFF WHITE",
+                "big_category": "상의",
+                "small_category": "긴소매 티셔츠",
+                "item_hashtags": [
+                    "오프숄더티",
+                    "오프숄더티셔츠",
+                    "7부티셔츠",
+                    "스판티",
+                    "슬림티",
+                    "긴팔티",
+                    "티셔츠추천"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220210/2351239/2351239_1_500.jpg"
+            },
+            {
+                "title": "Rough slacks (ivory)",
+                "big_category": "바지",
+                "small_category": "슈트 팬츠/슬랙스",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220303/2395103/2395103_1_500.jpg"
+            },
+            {
+                "title": "WHITEMOND 팔찌 (JJLJBQ1BS300SW7S0)",
+                "big_category": "주얼리",
+                "small_category": "팔찌",
+                "item_hashtags": [
+                    "팔찌",
+                    "팔찌추천",
+                    "팔찌선물",
+                    "여자팔찌",
+                    "친구선물",
+                    "선물추천",
+                    "데일리팔찌"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210118/1751922/1751922_4_500.jpg"
+            },
+            {
+                "title": "JOELLE MUAH MD 사첼 IV (JHNCHD1BS940IV980)",
+                "big_category": "여성 가방",
+                "small_category": "토트백",
+                "item_hashtags": [
+                    "데일리백",
+                    "핸드백",
+                    "사첼",
+                    "무아백",
+                    "고민시"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210114/1748785/1748785_11_500.jpg"
+            },
+            {
+                "title": "epke flat(My clean bed)_OK1DX23001WHT",
+                "big_category": "신발",
+                "small_category": "플랫 슈즈",
+                "item_hashtags": [
+                    "봄슈즈",
+                    "아카이브",
+                    "여성플랫",
+                    "플랫",
+                    "플랫슈즈"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200228/1327868/1327868_2_500.jpg"
+            }
+        ]
+    }
+]

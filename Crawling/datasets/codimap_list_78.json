@@ -1,0 +1,64 @@
+[
+    {
+        "title": "단정한 스타일링",
+        "styling_date": "2023.10.06",
+        "view_num": 625,
+        "styling_txt": "",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/26409/detail_26409_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1269066",
+            "https://www.musinsa.com/app/goods/3549220",
+            "https://www.musinsa.com/app/goods/2509448",
+            "https://www.musinsa.com/app/goods/2054192"
+        ],
+        "hashtags": [],
+        "style_tag": "비즈니스캐주얼",
+        "item_list": [
+            {
+                "title": "오버사이즈 트렌치 코트 BLACK",
+                "big_category": "아우터",
+                "small_category": "환절기 코트",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200113/1269066/1269066_16928568810552_500.jpg"
+            },
+            {
+                "title": "헤링본 오버핏 셋업 팬츠 BLACK",
+                "big_category": "바지",
+                "small_category": "슈트 팬츠/슬랙스",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20230911/3549220/3549220_16975177905691_500.jpg"
+            },
+            {
+                "title": "소가죽 브리프케이스 서류가방 T1011",
+                "big_category": "가방",
+                "small_category": "브리프케이스",
+                "item_hashtags": [
+                    "토트백",
+                    "남성",
+                    "서류가방",
+                    "가죽",
+                    "데일리",
+                    "출근룩",
+                    "남자서류가방"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220422/2509448/2509448_1_500.jpg"
+            },
+            {
+                "title": "루이스B 옥스포드 BK",
+                "big_category": "신발",
+                "small_category": "구두",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210809/2054192/2054192_1_500.jpg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "title": "체크의 매력",
+        "styling_date": "2022.05.10",
+        "view_num": 616,
+        "styling_txt": "스퀘어넥 디테일이 돋보이는 파자마 원피스와 언더웨어로 연출한 홈 웨어",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15691/detail_15691_1_500.jpg?202402150102",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1487786",
+            "https://www.musinsa.com/app/goods/1484044",
+            "https://www.musinsa.com/app/goods/2050056"
+        ],
+        "hashtags": [],
+        "style_tag": "홈웨어",
+        "item_list": [
+            {
+                "title": "소프트코튼 코지 브라",
+                "big_category": "속옷",
+                "small_category": "여성 속옷 상의",
+                "item_hashtags": [
+                    "노와이어브라",
+                    "면브라",
+                    "브라",
+                    "브라렛",
+                    "브래지어",
+                    "소프트브라",
+                    "풀컵브라"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200617/1487786/1487786_1_500.jpg"
+            },
+            {
+                "title": "소프트코튼 코지 드로즈형 팬티",
+                "big_category": "속옷",
+                "small_category": "여성 속옷 하의",
+                "item_hashtags": [
+                    "여성팬티",
+                    "여성드로즈",
+                    "드로즈팬티",
+                    "여성속옷"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200612/1484044/1484044_1_500.jpg"
+            },
+            {
+                "title": "bbabba ver.2 pouch m",
+                "big_category": "여성 가방",
+                "small_category": "파우치 백",
+                "item_hashtags": [
+                    "파우치",
+                    "여자가방",
+                    "미니백",
+                    "미니파우치"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210805/2050056/2050056_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "집에서 편하게",
+        "styling_date": "2022.05.10",
+        "view_num": 1646,
+        "styling_txt": "로고가 돋보이는 반팔 티셔츠와 숏 팬츠를 매치하고 언더웨어로 마무리한 홈 웨어",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15690/detail_15690_1_500.jpg?202402150102",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2482215",
+            "https://www.musinsa.com/app/goods/2029780",
+            "https://www.musinsa.com/app/goods/2472889"
+        ],
+        "hashtags": [],
+        "style_tag": "홈웨어",
+        "item_list": [
+            {
+                "title": "Falling 여성 트레이닝 밴딩 숏 반바지 SSP201 (네이비)",
+                "big_category": "바지",
+                "small_category": "숏 팬츠",
+                "item_hashtags": [
+                    "트레이닝팬츠",
+                    "쇼츠팬츠",
+                    "밴딩팬츠",
+                    "밴딩반바지",
+                    "숏팬츠",
+                    "숏바지"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220412/2482215/2482215_1_500.jpg"
+            },
+            {
+                "title": "크로아상 스크런치/헤어밴드_빈티지체크_옐로우(S)",
+                "big_category": "주얼리",
+                "small_category": "헤어 액세서리",
+                "item_hashtags": [
+                    "머리끈",
+                    "데일리머리끈",
+                    "곱창머리끈",
+                    "스크런치",
+                    "헤어슈슈",
+                    "헤어악세사리",
+                    "여자머리끈"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210714/2029780/2029780_1_500.jpg"
+            },
+            {
+                "title": "COVY ROOM OBJECT-BLUE(머그컵)",
+                "big_category": "리빙",
+                "small_category": "주방용품",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220407/2472889/2472889_1_500.jpg"
+            }
+        ]
+    }
+]

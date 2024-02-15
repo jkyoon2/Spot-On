@@ -1,0 +1,114 @@
+[
+    {
+        "title": "편안한 멋",
+        "styling_date": "2022.05.03",
+        "view_num": 2715,
+        "styling_txt": "편하게 입기 좋은 반팔 티셔츠와 트레이닝 팬츠를 코디하고 에코백으로 마무리한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15441/detail_15441_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2356416",
+            "https://www.musinsa.com/app/goods/1305963",
+            "https://www.musinsa.com/app/goods/102618"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "AMES ROUND LOGO CAP_BE(22SPCP01)",
+                "big_category": "모자",
+                "small_category": "캡/야구 모자",
+                "item_hashtags": [
+                    "로고볼캡",
+                    "볼캡",
+                    "볼캡모자",
+                    "볼캡추천",
+                    "캡모자",
+                    "모자"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220211/2356416/2356416_1_500.jpg"
+            },
+            {
+                "title": "Paris",
+                "big_category": "가방",
+                "small_category": "에코백",
+                "item_hashtags": [
+                    "가방",
+                    "노란색가방",
+                    "언폴드에코백",
+                    "에코백",
+                    "에코백추천",
+                    "여자가방"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200214/1305963/1305963_1_500.jpg"
+            },
+            {
+                "title": "어센틱 - 화이트 / VN000EE3WHT1",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "스케이트보드",
+                    "어센틱",
+                    "캔버스",
+                    "캔버스운동화",
+                    "시그니처아이템",
+                    "젠더리스"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20140620/102618/102618_7_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "누구나 좋아해",
+        "styling_date": "2022.05.03",
+        "view_num": 3050,
+        "styling_txt": "캐주얼 무드의 반팔 티셔츠와 데님 스커트를 매치하고 스니커즈로 완성한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15440/detail_15440_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2339353",
+            "https://www.musinsa.com/app/goods/2182756",
+            "https://www.musinsa.com/app/goods/1963478"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "DUCKLING CROP T-SHIRT",
+                "big_category": "상의",
+                "small_category": "반소매 티셔츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220203/2339353/2339353_1_500.jpg"
+            },
+            {
+                "title": "클래식 롱 데님 스커트",
+                "big_category": "스커트",
+                "small_category": "미디스커트",
+                "item_hashtags": [
+                    "롱스커트",
+                    "스커트",
+                    "롱치마",
+                    "A라인",
+                    "치마",
+                    "데님스커트",
+                    "청치마",
+                    "데님"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211018/2182756/2182756_16946585797813_500.jpg"
+            },
+            {
+                "title": "멕시코 66 VIN 1183B391_200",
+                "big_category": "스니커즈",
+                "small_category": "패션스니커즈화",
+                "item_hashtags": [
+                    "멕시코66VIN",
+                    "212137043",
+                    "1183B391",
+                    "멕시코66"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210524/1963478/1963478_1_500.jpg"
+            }
+        ]
+    }
+]

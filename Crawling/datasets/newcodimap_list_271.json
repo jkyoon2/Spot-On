@@ -1,0 +1,90 @@
+[
+    {
+        "title": "누구나 어울려",
+        "styling_date": "2022.04.06",
+        "view_num": 3829,
+        "styling_txt": "로고 플레이가 돋보이는 반팔 티셔츠와 롱스커트를 코디하고 볼캡으로 마무리한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14448/detail_14448_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2384631",
+            "https://www.musinsa.com/app/goods/1835080",
+            "https://www.musinsa.com/app/goods/2413570"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "VELOCITY TRUCKER (BURGUNDY)",
+                "big_category": "모자",
+                "small_category": "캡/야구 모자",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220224/2384631/2384631_1_500.jpg"
+            },
+            {
+                "title": "BUCKLE BAG IN BLACK",
+                "big_category": "가방",
+                "small_category": "숄더백",
+                "item_hashtags": [
+                    "포인트백",
+                    "젠더리스"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210309/1835080/1835080_1_500.jpg"
+            },
+            {
+                "title": "스퍼브N 그린_SUPERB N GREEN",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "스니커즈",
+                    "신발",
+                    "캔버스화",
+                    "그린"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220311/2413570/2413570_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "화사한 하루",
+        "styling_date": "2022.04.06",
+        "view_num": 2654,
+        "styling_txt": "퍼프소매가 돋보이는 카디건과 데님 팬츠를 매치하고 펌프스로 완성한 로맨틱 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14447/detail_14447_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2097393",
+            "https://www.musinsa.com/app/goods/1938581"
+        ],
+        "hashtags": [],
+        "style_tag": "로맨틱",
+        "item_list": [
+            {
+                "title": "[STRAIGHT] Moody Jeans",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [
+                    "데님팬츠",
+                    "워싱데님",
+                    "스트레이트핏",
+                    "청바지",
+                    "긴바지",
+                    "여자데님",
+                    "스트레이트"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210830/2097393/2097393_1_500.jpg"
+            },
+            {
+                "title": "CG21B6551_WH",
+                "big_category": "신발",
+                "small_category": "힐/펌프스",
+                "item_hashtags": [
+                    "수제화",
+                    "슬링백"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210506/1938581/1938581_1_500.jpg"
+            }
+        ]
+    }
+]

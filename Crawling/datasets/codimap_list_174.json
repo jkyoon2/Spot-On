@@ -1,0 +1,79 @@
+[
+    {
+        "title": "데일리 파자마",
+        "styling_date": "2022.12.20",
+        "view_num": 1506,
+        "styling_txt": "화사한 파스텔 컬러가 매력적인 파자마에 언더웨어를 더해 마무리한 홈 웨어",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/20417/detail_20417_1_500.jpg?202402140402",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2278664",
+            "https://www.musinsa.com/app/goods/2797625"
+        ],
+        "hashtags": [],
+        "style_tag": "홈웨어",
+        "item_list": [
+            {
+                "title": "에어로쿨 로고 아웃밴드 아이보리 노와이어 브라 팬티 세트",
+                "big_category": "속옷",
+                "small_category": "여성 속옷 세트",
+                "item_hashtags": [
+                    "브라팬티세트",
+                    "노와이어",
+                    "스포츠브라",
+                    "언더웨어",
+                    "브라세트",
+                    "에어로쿨",
+                    "여성속옷"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211222/2278664/2278664_16740971015386_500.jpg"
+            },
+            {
+                "title": "자연 그대로,포토 그라데이션 항균 베개커버 3colors",
+                "big_category": "리빙",
+                "small_category": "침구",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220916/2797625/2797625_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "화사한 주말",
+        "styling_date": "2022.12.20",
+        "view_num": 850,
+        "styling_txt": "바이올렛 컬러가 매력적인 언더웨어와 파자마 셋업으로 완성한 홈 웨어",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/20416/detail_20416_1_500.jpg?202402140402",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1281596",
+            "https://www.musinsa.com/app/goods/2735737"
+        ],
+        "hashtags": [],
+        "style_tag": "홈웨어",
+        "item_list": [
+            {
+                "title": "기본 사각라운드 블루라이트 투명 S000778",
+                "big_category": "선글라스/안경테",
+                "small_category": "안경",
+                "item_hashtags": [
+                    "기본안경",
+                    "블루라이트",
+                    "블루라이트안경",
+                    "뿔테",
+                    "안경테",
+                    "투명뿔테",
+                    "투명안경"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200128/1281596/1281596_2_500.jpg"
+            },
+            {
+                "title": "폴리팝 [ PP03 ] VER. 2",
+                "big_category": "디지털/테크",
+                "small_category": "휴대폰",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220823/2735737/2735737_17041800253599_500.png"
+            }
+        ]
+    }
+]

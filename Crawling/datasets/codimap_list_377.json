@@ -1,0 +1,64 @@
+[
+    {
+        "title": "분위기 있어",
+        "styling_date": "2021.10.19",
+        "view_num": 801,
+        "styling_txt": "블랙 컬러 언더웨어에 로브를 코디해 연출한 홈 웨어",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/7962/detail_7962_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1697195",
+            "https://www.musinsa.com/app/goods/2130734",
+            "https://www.musinsa.com/app/goods/2130750",
+            "https://www.musinsa.com/app/goods/1235159"
+        ],
+        "hashtags": [],
+        "style_tag": "홈웨어",
+        "item_list": [
+            {
+                "title": "헤비웨이트 부클 니트 로브 - 화이트",
+                "big_category": "속옷",
+                "small_category": "홈웨어",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20201120/1697195/1697195_2_500.jpg"
+            },
+            {
+                "title": "여성 스트럭쳐 마이크로 AF 브라렛_QF6692ADUB1",
+                "big_category": "속옷",
+                "small_category": "여성 속옷 상의",
+                "item_hashtags": [
+                    "브라",
+                    "브라렛",
+                    "CK",
+                    "CK언더웨어",
+                    "CK속옷",
+                    "여성속옷"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210914/2130734/2130734_1_500.jpg"
+            },
+            {
+                "title": "여성 스트럭쳐 마이크로 AF 힙스터 팬티_QF6694ADUB1",
+                "big_category": "속옷",
+                "small_category": "여성 속옷 하의",
+                "item_hashtags": [
+                    "속옷",
+                    "CK",
+                    "여성팬티",
+                    "여성삼각팬티"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210914/2130750/2130750_2_500.jpg"
+            },
+            {
+                "title": "퍼 룸슈즈 AFDR19T05",
+                "big_category": "신발",
+                "small_category": "슬리퍼",
+                "item_hashtags": [
+                    "룸슈즈",
+                    "슈펜룸슈즈",
+                    "실내화",
+                    "털실내화"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20191125/1235159/1235159_2_500.jpg"
+            }
+        ]
+    }
+]
