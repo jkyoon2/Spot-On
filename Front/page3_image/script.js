@@ -26,10 +26,30 @@ uploadBox.addEventListener("click", () => {
     }
 });
 
-searchButton.addEventListener("click", function() {
-    const searchTerm = searchInput.value;
-    console.log("Search for:", searchTerm);
-    // 검색 기능 구현
+// 검색 버튼을 누르면 입력된 검색어와 업로드된 이미지를 서버에 전송합니다.
+searchButton.addEventListener('click', function(event) {
+    event.preventDefault();
+
+    var searchTerm = searchInput.value;
+    var imageUpload = fileInput.files[0];
+
+    var formData = new FormData();
+    formData.append('searchTerm', searchTerm);
+    formData.append('image', imageUpload);
+
+    fetch('/search', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => {
+        if(response.ok) {
+            // 서버의 응답이 성공적이면 페이지 이동
+            window.location.href = '../page5_result/index.html';
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
 });
 
 refreshButton.addEventListener("click", function() {
