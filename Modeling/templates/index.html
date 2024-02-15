@@ -1,0 +1,20 @@
+<button id="getRecommendation">Get Recommendation</button>
+<div id="imageContainer"></div>
+
+<script>
+document.getElementById('getRecommendation').addEventListener('click', function() {
+    fetch('/recommend', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({userPreferences: 'your_preferences_data'})
+    })
+    .then(response => response.json())
+    .then(data => {
+        // 서버로부터 받은 이미지 URL을 이용해 이미지를 페이지에 로드
+        document.getElementById('imageContainer').innerHTML = `<img src="${data.imageUrl}" alt="Recommended Image">`;
+    })
+    .catch(error => console.error('Error:', error));
+});
+</script>
