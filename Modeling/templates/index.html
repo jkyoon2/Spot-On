@@ -3,7 +3,7 @@
 
 <script>
 document.getElementById('getRecommendation').addEventListener('click', function() {
-    fetch('/recommend', {
+    fetch('http://165.132.46.86:32073/textSearch', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

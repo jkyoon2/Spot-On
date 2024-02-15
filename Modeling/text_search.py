@@ -9,7 +9,7 @@ from typing import List
 from transformers import CLIPModel, CLIPProcessor
 from sklearn.metrics.pairwise import cosine_similarity
 
-class TextSearchModel():
+class TextSearchModel:
     def __init__(self, pickle_path: str, image_dir: str, device, client_id, client_secret,url='https://openapi.naver.com/v1/papago/n2mt'):
         self.num_images = 1000
         self.client_id = client_id
