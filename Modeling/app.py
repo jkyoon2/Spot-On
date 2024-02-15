@@ -40,6 +40,9 @@ def text_search():
     image1_url = url_for('static', filename='images/1.png')
     image2_url = url_for('static', filename='images/2.png')
     image3_url = url_for('static', filename='images/3.png')
+    image4_url = url_for('static', filename='images/4.png')
+    image5_url = url_for('static', filename='images/5.png')
+    image6_url = url_for('static', filename='images/6.png')
 
     # Generate product information
     results = {}
@@ -47,7 +50,100 @@ def text_search():
     results['searchImage'] = image1_url
     results['products'] = [
         {'productID': "0000001", 'productName': "스페이스 헤비코튼", "productImage": image2_url, "productBigcat": "상의", "productSmallcat": "후드 티셔츠", "productHashtag": ["후드티셔츠", "오버핏", "빈티지"]},
-        {'productID': "0000002", 'productName': "코튼 트위드 자켓", "productImage": image3_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]}
+        {'productID': "0000002", 'productName': "코튼 트위드 자켓", "productImage": image3_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
+        {'productID': "0000003", 'productName': "코튼 트위드 자켓", "productImage": image4_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
+        {'productID': "0000004", 'productName': "코튼 트위드 자켓", "productImage": image5_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
+        {'productID': "0000005", 'productName': "코튼 트위드 자켓", "productImage": image6_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
+    ]
+
+    return jsonify(results)
+
+
+@app.route('/imageSearch', methods=['POST'])
+def image_search():
+    if 'image' not in request.files:
+        return jsonify({'error': 'No image part'}), 400
+    image = request.files['image']
+    prompt = request.form['description']
+
+    # Save the image to the disk
+    image.save('static/uploaded_image.jpg')
+
+    # Use ImageSearchModel to segment and get top-k image file paths
+
+    # Generate image urls
+    image1_url = url_for('static', filename='images/1.png')
+    image2_url = url_for('static', filename='images/2.png')
+    image3_url = url_for('static', filename='images/3.png')
+    image4_url = url_for('static', filename='images/4.png')
+    image5_url = url_for('static', filename='images/5.png')
+    image6_url = url_for('static', filename='images/6.png')
+
+    results = {}
+    results['searchText'] = prompt
+    results['searchImage'] = ''
+    results['products'] = [
+        {'productID': "0000001", 'productName': "스페이스 헤비코튼", "productImage": image2_url, "productBigcat": "상의", "productSmallcat": "후드 티셔츠", "productHashtag": ["후드티셔츠", "오버핏", "빈티지"]},
+        {'productID': "0000002", 'productName': "코튼 트위드 자켓", "productImage": image3_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
+        {'productID': "0000003", 'productName': "코튼 트위드 자켓", "productImage": image4_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
+        {'productID': "0000004", 'productName': "코튼 트위드 자켓", "productImage": image5_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
+        {'productID': "0000005", 'productName': "코튼 트위드 자켓", "productImage": image6_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
+    ]
+
+    return jsonify(results)
+
+@app.route('/searchMoments', methods=['POST'])
+def search_moments():
+    # Get the query text from the request
+    data = request.json
+    video_url = data['videoUrl']
+    prompt = data['prompt']
+
+    # Use VideoSearchModel to get top-k moments from the video
+    # Generate image urls
+    visualization_url = url_for('static', filename='images/visualization.jpg')
+    image1_url = url_for('static', filename='images/1.png')
+    image2_url = url_for('static', filename='images/2.png')
+    image3_url = url_for('static', filename='images/3.png')
+    image4_url = url_for('static', filename='images/4.png')
+    image5_url = url_for('static', filename='images/5.png')
+    image6_url = url_for('static', filename='images/6.png')
+
+    results = {}
+    results['visualization'] = visualization_url
+    results['selectedMoments'] = [
+        {'image': image1_url},
+        {'image': image2_url},
+        {'image': image3_url},
+        {'image': image4_url},
+        {'image': image5_url},
+    ]
+
+    return jsonify(results)
+
+@app.route('/videoSearch', methods=['POST'])
+def video_search():
+    data = request.json
+    selected_moment = data['selectedMoment'] # integer index of the selected moment (0-4)
+    prompt = data['prompt']
+
+    # Generate image urls
+    image1_url = url_for('static', filename='images/1.png')
+    image2_url = url_for('static', filename='images/2.png')
+    image3_url = url_for('static', filename='images/3.png')
+    image4_url = url_for('static', filename='images/4.png')
+    image5_url = url_for('static', filename='images/5.png')
+    image6_url = url_for('static', filename='images/6.png')
+
+    results = {}
+    results['searchText'] = prompt
+    results['searchImage'] = ''
+    results['products'] = [
+        {'productID': "0000001", 'productName': "스페이스 헤비코튼", "productImage": image2_url, "productBigcat": "상의", "productSmallcat": "후드 티셔츠", "productHashtag": ["후드티셔츠", "오버핏", "빈티지"]},
+        {'productID': "0000002", 'productName': "코튼 트위드 자켓", "productImage": image3_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
+        {'productID': "0000003", 'productName': "코튼 트위드 자켓", "productImage": image4_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
+        {'productID': "0000004", 'productName': "코튼 트위드 자켓", "productImage": image5_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
+        {'productID': "0000005", 'productName': "코튼 트위드 자켓", "productImage": image6_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
     ]
 
     return jsonify(results)
