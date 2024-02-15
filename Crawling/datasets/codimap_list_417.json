@@ -1,0 +1,96 @@
+[
+    {
+        "title": "백팩 스타일링",
+        "styling_date": "2021.08.16",
+        "view_num": 838,
+        "styling_txt": "로고 디테일이 돋보이는 반팔 티셔츠와 숏 팬츠를 코디하고 백팩으로 완성한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/5594/detail_5594_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1860182",
+            "https://www.musinsa.com/app/goods/1765502"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "Minute Stripe Washed Half Pants Deep Blue",
+                "big_category": "바지",
+                "small_category": "숏 팬츠",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210323/1860182/1860182_1_500.jpg"
+            },
+            {
+                "title": "서울컬렉션 연희 블랙",
+                "big_category": "선글라스/안경테",
+                "small_category": "안경",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210127/1765502/1765502_16861919688152_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "멋쟁이 조합",
+        "styling_date": "2021.08.16",
+        "view_num": 1507,
+        "styling_txt": "베이식한 핏의 반팔 니트와 슬랙스를 매치하고 더비 슈즈로 완성한 댄디 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/5593/detail_5593_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1947780",
+            "https://www.musinsa.com/app/goods/1862941",
+            "https://www.musinsa.com/app/goods/1722933"
+        ],
+        "hashtags": [],
+        "style_tag": "댄디",
+        "item_list": [
+            {
+                "title": "쿨맥스 스트레치 워셔블 슬림핏 슬랙스 블랙",
+                "big_category": "바지",
+                "small_category": "슈트 팬츠/슬랙스",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210512/1947780/1947780_1_500.jpg"
+            },
+            {
+                "title": "Twins Silver Chain Bracelet",
+                "big_category": "주얼리",
+                "small_category": "팔찌",
+                "item_hashtags": [
+                    "팔찌",
+                    "남자팔찌",
+                    "실버팔찌",
+                    "데일리팔찌",
+                    "커플팔찌",
+                    "팔찌선물",
+                    "체인팔찌"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210325/1862941/1862941_1_500.jpg"
+            },
+            {
+                "title": "LODI LX 미니 크로스백 사코슈",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "남자토트백",
+                    "미니크로스백",
+                    "남자크로스백",
+                    "가죽토트백",
+                    "미니가방",
+                    "사코슈",
+                    "남자클러치백"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20201215/1722933/1722933_1_500.jpg"
+            }
+        ]
+    }
+]

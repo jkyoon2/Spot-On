@@ -1,0 +1,70 @@
+[
+    {
+        "title": "빈티지 스트릿 룩",
+        "styling_date": "2023.11.10",
+        "view_num": 1137,
+        "styling_txt": "",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/27624/detail_27624_2_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/3625284",
+            "https://www.musinsa.com/app/goods/3622000",
+            "https://www.musinsa.com/app/goods/3657871",
+            "https://www.musinsa.com/app/goods/3041933",
+            "https://www.musinsa.com/app/goods/3652421"
+        ],
+        "hashtags": [],
+        "style_tag": "스트릿",
+        "item_list": [
+            {
+                "title": "ALIEN COACHS VARSITY JACKET NAVY",
+                "big_category": "아우터",
+                "small_category": "스타디움 재킷",
+                "item_hashtags": [
+                    "ABCOBRANDWEEK"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20231013/3625284/3625284_16977694059078_500.jpg"
+            },
+            {
+                "title": "The Concert L/S Tee - Chestnut",
+                "big_category": "상의",
+                "small_category": "긴소매 티셔츠",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20231012/3622000/3622000_16970908906990_500.jpg"
+            },
+            {
+                "title": "에코 레더 트랙 팬츠 브라운",
+                "big_category": "바지",
+                "small_category": "기타 바지",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20231025/3657871/3657871_16986481308969_500.png"
+            },
+            {
+                "title": "빈티지 크랙레더 크로스 백",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "남자가방",
+                    "크로스백",
+                    "신학기컬렉션",
+                    "레더백",
+                    "숄더백",
+                    "메신저백",
+                    "레더"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20230126/3041933/3041933_16775519387424_500.jpg"
+            },
+            {
+                "title": "푸마ⅹLMC 클라이드 - 브라운:아이보리",
+                "big_category": "스니커즈",
+                "small_category": "패션스니커즈화",
+                "item_hashtags": [
+                    "푸마ⅩLMC",
+                    "클라이드",
+                    "푸마컬래버레이션",
+                    "푸마×LMC"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20231024/3652421/3652421_16988198521159_500.jpg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,118 @@
+[
+    {
+        "title": "담백한 무드",
+        "styling_date": "2022.04.22",
+        "view_num": 1836,
+        "styling_txt": "깔끔한 실루엣의 반팔 셔츠와 슬랙스를 코디하고 로퍼로 완성한 포멀 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15071/detail_15071_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1886294",
+            "https://www.musinsa.com/app/goods/2363964",
+            "https://www.musinsa.com/app/goods/636831"
+        ],
+        "hashtags": [],
+        "style_tag": "비즈니스캐주얼",
+        "item_list": [
+            {
+                "title": "스탠다드 숏 슬리브 셔츠 -WT",
+                "big_category": "상의",
+                "small_category": "셔츠/블라우스",
+                "item_hashtags": [
+                    "반팔티셔츠",
+                    "여름반팔셔츠",
+                    "남자셔츠",
+                    "반팔셔츠",
+                    "하프셔츠",
+                    "셔츠남방",
+                    "칼라셔츠"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210407/1886294/1886294_1_500.jpg"
+            },
+            {
+                "title": "[Easy line] Gaberdine cotton 1Pleats banding chino (Khaki)",
+                "big_category": "바지",
+                "small_category": "코튼 팬츠",
+                "item_hashtags": [
+                    "남자바지",
+                    "캐주얼팬츠",
+                    "와이드팬츠",
+                    "면바지",
+                    "코튼팬츠",
+                    "밴딩팬츠",
+                    "치노팬츠"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220216/2363964/2363964_1_500.jpg"
+            },
+            {
+                "title": "남성용 PU 페니로퍼 HS-6550_BLACK",
+                "big_category": "신발",
+                "small_category": "로퍼",
+                "item_hashtags": [
+                    "페니",
+                    "홀리데이",
+                    "페니로퍼"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20170919/636831/636831_16937945801452_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "운동하는 날",
+        "styling_date": "2022.04.22",
+        "view_num": 1113,
+        "styling_txt": "편하게 입기 좋은 반팔 티셔츠와 트레이닝 팬츠를 매치하고 보스턴백을 더해 완성한 스포츠 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15070/detail_15070_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2383700",
+            "https://www.musinsa.com/app/goods/2022055",
+            "https://www.musinsa.com/app/goods/1739238"
+        ],
+        "hashtags": [],
+        "style_tag": "스포티",
+        "item_list": [
+            {
+                "title": "남여공용 에어프레쉬 2PACK 반팔 티셔츠 블랙",
+                "big_category": "스포츠/용품",
+                "small_category": "상의",
+                "item_hashtags": [
+                    "남자운동복",
+                    "여성티셔츠",
+                    "반팔티셔츠",
+                    "반팔티",
+                    "운동복",
+                    "무지",
+                    "반소매티컬렉션"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220224/2383700/2383700_1_500.jpg"
+            },
+            {
+                "title": "소프트코튼 에센셜 러닝팬츠 슬림핏",
+                "big_category": "스포츠/용품",
+                "small_category": "하의",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210707/2022055/2022055_1_500.jpg"
+            },
+            {
+                "title": "어센틱 트래블백 QB08 블랙",
+                "big_category": "스포츠/용품",
+                "small_category": "스포츠가방",
+                "item_hashtags": [
+                    "여행가방",
+                    "보스턴백",
+                    "더플백",
+                    "보스턴가방",
+                    "운동가방",
+                    "헬스가방",
+                    "트래블백"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210107/1739238/1739238_16986423744437_500.jpg"
+            }
+        ]
+    }
+]

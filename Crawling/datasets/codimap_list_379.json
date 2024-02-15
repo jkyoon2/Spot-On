@@ -1,0 +1,111 @@
+[
+    {
+        "title": "스트릿 룩 추천",
+        "styling_date": "2021.10.13",
+        "view_num": 1773,
+        "styling_txt": "아가일 패턴이 매력적인 비니와 레더 재킷을 매치하고 로퍼로 완성한 스트릿 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/7827/detail_7827_1_500.jpg?202402140402",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2116229",
+            "https://www.musinsa.com/app/goods/2121838",
+            "https://www.musinsa.com/app/goods/2108635"
+        ],
+        "hashtags": [],
+        "style_tag": "스트릿",
+        "item_list": [
+            {
+                "title": "LR CUTTING RIDER JACKET(OLIVE GREEN)",
+                "big_category": "아우터",
+                "small_category": "레더/라이더스 재킷",
+                "item_hashtags": [
+                    "재킷",
+                    "미니멀",
+                    "라이더자켓",
+                    "가죽자켓",
+                    "가죽"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210908/2116229/2116229_1_500.jpg"
+            },
+            {
+                "title": "Atom Zip-up Sweater Melange Gray",
+                "big_category": "상의",
+                "small_category": "니트/스웨터",
+                "item_hashtags": [
+                    "니트",
+                    "스웨터",
+                    "풀오버",
+                    "울니트",
+                    "크루넥",
+                    "집업",
+                    "크롭카디건"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210909/2121838/2121838_2_500.jpg"
+            },
+            {
+                "title": "Loafer_TUNIPER 튜니퍼 RK978f",
+                "big_category": "신발",
+                "small_category": "로퍼",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210903/2108635/2108635_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "귀여운 스타일",
+        "styling_date": "2021.10.13",
+        "view_num": 3056,
+        "styling_txt": "레오퍼드 패턴이 매력적인 카디건과 미니스커트를 코디하고 헌팅캡으로 마무리한 걸리시 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/7826/detail_7826_1_500.jpg?202402140402",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1663937",
+            "https://www.musinsa.com/app/goods/2130801",
+            "https://www.musinsa.com/app/goods/2113918",
+            "https://www.musinsa.com/app/goods/2090567"
+        ],
+        "hashtags": [],
+        "style_tag": "걸리시",
+        "item_list": [
+            {
+                "title": "모헤어 레오파드 가디건 스카이블루",
+                "big_category": "아우터",
+                "small_category": "카디건",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20201026/1663937/1663937_1_500.jpg"
+            },
+            {
+                "title": "CASHMERE BLENDED PULLOVER FLOWERMARDI_IVORY PINK",
+                "big_category": "상의",
+                "small_category": "니트/스웨터",
+                "item_hashtags": [
+                    "니트컬렉션"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210914/2130801/2130801_1_500.jpg"
+            },
+            {
+                "title": "flora blouse",
+                "big_category": "상의",
+                "small_category": "셔츠/블라우스",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210907/2113918/2113918_1_500.jpg"
+            },
+            {
+                "title": "Leather strap Boots LC112_3cm",
+                "big_category": "신발",
+                "small_category": "부츠",
+                "item_hashtags": [
+                    "여성부츠",
+                    "여성슈즈",
+                    "여성앵클부츠",
+                    "디자이너슈즈",
+                    "앵클부츠추천",
+                    "부츠",
+                    "앵클부츠"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210826/2090567/2090567_1_500.jpg"
+            }
+        ]
+    }
+]

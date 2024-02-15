@@ -1,0 +1,113 @@
+[
+    {
+        "title": "오늘의 아웃핏",
+        "styling_date": "2022.03.07",
+        "view_num": 2702,
+        "styling_txt": "스웨이드 소재의 재킷에 데님 팬츠를 매치하고 왁스 재킷으로 꾸민 댄디 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/13259/detail_13259_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2151368",
+            "https://www.musinsa.com/app/goods/848825",
+            "https://www.musinsa.com/app/goods/2373547",
+            "https://www.musinsa.com/app/goods/1750875",
+            "https://www.musinsa.com/app/goods/2138199"
+        ],
+        "hashtags": [],
+        "style_tag": "댄디",
+        "item_list": [
+            {
+                "title": "클래식 뷰포트 왁스 재킷 - 올리브",
+                "big_category": "아우터",
+                "small_category": "기타 아우터",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210928/2151368/2151368_2_500.jpg"
+            },
+            {
+                "title": "만다 스웨이드 자켓 브라운",
+                "big_category": "아우터",
+                "small_category": "블루종/MA-1",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20180905/848825/848825_16746110850485_500.jpg"
+            },
+            {
+                "title": "테드 오버 크루넥 화이트",
+                "big_category": "상의",
+                "small_category": "긴소매 티셔츠",
+                "item_hashtags": [
+                    "롱슬리브",
+                    "긴팔티셔츠",
+                    "쭉티",
+                    "긴팔티",
+                    "티셔츠",
+                    "긴팔"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220221/2373547/2373547_2_500.jpg"
+            },
+            {
+                "title": "남자시계 FC-335MC4P5 클래식 하트비트 문페이즈",
+                "big_category": "시계",
+                "small_category": "오토매틱 아날로그",
+                "item_hashtags": [
+                    "명품시계",
+                    "남자시계",
+                    "메탈시계",
+                    "가죽시계",
+                    "시계선물"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210115/1750875/1750875_3_500.jpg"
+            },
+            {
+                "title": "호드 웨스턴 집업 부츠 R22M082 (크랙 브라운)",
+                "big_category": "신발",
+                "small_category": "부츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210916/2138199/2138199_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "포멀 레이니 룩",
+        "styling_date": "2022.03.07",
+        "view_num": 1457,
+        "styling_txt": "미니멀 무드의 니트와 셔츠를 레이어드한 후 퀼팅 재킷으로 완성한 포멀 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/13258/detail_13258_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2151352",
+            "https://www.musinsa.com/app/goods/2151375",
+            "https://www.musinsa.com/app/goods/1889063"
+        ],
+        "hashtags": [],
+        "style_tag": "비즈니스캐주얼",
+        "item_list": [
+            {
+                "title": "바버 헤리티지 리데스데일 퀼트 - 블랙",
+                "big_category": "아우터",
+                "small_category": "기타 아우터",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210928/2151352/2151352_1_500.jpg"
+            },
+            {
+                "title": "바버 타탄 워커 엄브렐라 - 타탄",
+                "big_category": "리빙",
+                "small_category": "생활용품",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210928/2151375/2151375_1_500.jpg"
+            },
+            {
+                "title": "[MEN] 오리지날 톨 레인부츠 - 블랙 MFT9000RMABLK",
+                "big_category": "신발",
+                "small_category": "부츠",
+                "item_hashtags": [
+                    "레인부츠"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210408/1889063/1889063_1_500.jpg"
+            }
+        ]
+    }
+]

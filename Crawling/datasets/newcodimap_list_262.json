@@ -1,0 +1,92 @@
+[
+    {
+        "title": "따라 입어봐",
+        "styling_date": "2022.04.21",
+        "view_num": 1572,
+        "styling_txt": "스트라이프 패턴이 돋보이는 카라 티셔츠와 카고 팬츠를 매치하고 백팩으로 완성한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14996/detail_14996_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2123597",
+            "https://www.musinsa.com/app/goods/2244448"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "[블루라이트 차단렌즈] Oliver-OB0225-Khaki",
+                "big_category": "선글라스/안경테",
+                "small_category": "안경",
+                "item_hashtags": [
+                    "여자안경",
+                    "안경테",
+                    "뿔테",
+                    "안경",
+                    "블루라이트",
+                    "남자안경"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210910/2123597/2123597_1_500.jpg"
+            },
+            {
+                "title": "스쿼시 SL WHITE",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211123/2244448/2244448_2_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "아메카지 무드",
+        "styling_date": "2022.04.21",
+        "view_num": 1965,
+        "styling_txt": "벨트 디테일이 매력적인 버뮤다 팬츠와 카라 니트를 매치한 후 슬리퍼로 멋을 낸 아메리칸 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15011/detail_15011_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2433644",
+            "https://www.musinsa.com/app/goods/651882",
+            "https://www.musinsa.com/app/goods/501198"
+        ],
+        "hashtags": [],
+        "style_tag": "아메카지",
+        "item_list": [
+            {
+                "title": "와플 소프트 코튼 쇼츠 슬리브 카라 니트 COOSKT037IVORY",
+                "big_category": "상의",
+                "small_category": "니트/스웨터",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220321/2433644/2433644_2_500.jpg"
+            },
+            {
+                "title": "SQ BANDANA (khaki)",
+                "big_category": "스포츠/용품",
+                "small_category": "스포츠잡화",
+                "item_hashtags": [
+                    "손수건",
+                    "스카프",
+                    "아메카지",
+                    "행거칩"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20171013/651882/651882_1_500.jpg"
+            },
+            {
+                "title": "취리히 SFB 타우페 1009532",
+                "big_category": "신발",
+                "small_category": "슬리퍼",
+                "item_hashtags": [
+                    "스트랩샌들",
+                    "스트랩슬리퍼",
+                    "슬라이드",
+                    "버켄스탁샌들",
+                    "서머슈즈"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20170317/501198/501198_7_500.jpg"
+            }
+        ]
+    }
+]

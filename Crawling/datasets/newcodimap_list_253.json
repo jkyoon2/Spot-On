@@ -1,0 +1,108 @@
+[
+    {
+        "title": "데이트 가는 길",
+        "styling_date": "2022.05.05",
+        "view_num": 2473,
+        "styling_txt": "스퀘어넥 디테일이 돋보이는 블라우스와 데님 팬츠로 화사하게 연출한 로맨틱 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15571/detail_15571_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2375751",
+            "https://www.musinsa.com/app/goods/2300856",
+            "https://www.musinsa.com/app/goods/2402910",
+            "https://www.musinsa.com/app/goods/2425180"
+        ],
+        "hashtags": [],
+        "style_tag": "로맨틱",
+        "item_list": [
+            {
+                "title": "스퀘어넥 블라우스 WHITE",
+                "big_category": "상의",
+                "small_category": "셔츠/블라우스",
+                "item_hashtags": [
+                    "블라우스",
+                    "간절기블라우스",
+                    "하객룩",
+                    "화이트블라우스",
+                    "스퀘어넥블라우스"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220221/2375751/2375751_1_500.jpg"
+            },
+            {
+                "title": "L톤 뉴 슬림붓컷_OM2D0712",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220111/2300856/2300856_1_500.jpg"
+            },
+            {
+                "title": "CIELO(씨엘로)_PM1NTT6CLTWH",
+                "big_category": "여성 가방",
+                "small_category": "크로스백",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220307/2402910/2402910_16951750688761_500.jpg"
+            },
+            {
+                "title": "인텐스 여성 러블리한 리본 매듭 뮬 1cm LCWO06I226",
+                "big_category": "신발",
+                "small_category": "힐/펌프스",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220317/2425180/2425180_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "데일리 웨어",
+        "styling_date": "2022.05.05",
+        "view_num": 3600,
+        "styling_txt": "그래픽이 돋보이는 반팔 티셔츠와 롱스커트를 코디하고 스니커즈로 완성한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15570/detail_15570_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2440914",
+            "https://www.musinsa.com/app/goods/2051696",
+            "https://www.musinsa.com/app/goods/1722375"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "G-logo Tee White",
+                "big_category": "상의",
+                "small_category": "반소매 티셔츠",
+                "item_hashtags": [
+                    "티셔츠",
+                    "티셔츠추천",
+                    "반팔티",
+                    "반팔티셔츠",
+                    "로고티셔츠",
+                    "그래픽티셔츠",
+                    "SN-LOGO"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220323/2440914/2440914_1_500.jpg"
+            },
+            {
+                "title": "블랙 스티치장식 면혼방 데님스커트(with 에코백) DLSK1BT02BK",
+                "big_category": "스커트",
+                "small_category": "롱스커트",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210806/2051696/2051696_1_500.jpg"
+            },
+            {
+                "title": "PICA BAG (HERRINGBONE BK)",
+                "big_category": "여성 가방",
+                "small_category": "크로스백",
+                "item_hashtags": [
+                    "피카백",
+                    "미니백",
+                    "캔버스백"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20201215/1722375/1722375_1_500.jpg"
+            }
+        ]
+    }
+]

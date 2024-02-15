@@ -1,0 +1,115 @@
+[
+    {
+        "title": "멋스러운 감각",
+        "styling_date": "2022.04.20",
+        "view_num": 2126,
+        "styling_txt": "미니멀 무드의 셔츠와 숏 팬츠를 매치하고 크로스 백으로 완성한 댄디 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14960/detail_14960_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2005113",
+            "https://www.musinsa.com/app/goods/2418473",
+            "https://www.musinsa.com/app/goods/1143478",
+            "https://www.musinsa.com/app/goods/2049593",
+            "https://www.musinsa.com/app/goods/2167595"
+        ],
+        "hashtags": [],
+        "style_tag": "댄디",
+        "item_list": [
+            {
+                "title": "젠틀 오픈 세미 오버핏 셔츠 블랙",
+                "big_category": "상의",
+                "small_category": "셔츠/블라우스",
+                "item_hashtags": [
+                    "셔츠",
+                    "오픈카라셔츠",
+                    "반오픈셔츠",
+                    "캐주얼셔츠",
+                    "여름셔츠",
+                    "기본셔츠",
+                    "오버핏셔츠",
+                    "오버핏컬렉션"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210622/2005113/2005113_1_500.jpg"
+            },
+            {
+                "title": "WIDE FIT ONE TUCK COTTON SHORTS LIGHT BEIGE",
+                "big_category": "바지",
+                "small_category": "숏 팬츠",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220315/2418473/2418473_1_500.jpg"
+            },
+            {
+                "title": "고든 글라스(블랙)",
+                "big_category": "선글라스/안경테",
+                "small_category": "안경",
+                "item_hashtags": [
+                    "안경테",
+                    "뿔테안경",
+                    "아울렛",
+                    "블루라이트차단안경",
+                    "패션안경",
+                    "남자안경",
+                    "여자안경"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20190905/1143478/1143478_2_500.jpg"
+            },
+            {
+                "title": "써지컬스틸 캔디 토글바 체인팔찌 (C2101-AC758_SV)",
+                "big_category": "주얼리",
+                "small_category": "팔찌",
+                "item_hashtags": [
+                    "여자팔찌",
+                    "데일리팔찌",
+                    "실버팔찌",
+                    "커플팔찌",
+                    "써지컬스틸",
+                    "체인팔찌",
+                    "써지컬팔찌"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210804/2049593/2049593_1_500.jpg"
+            },
+            {
+                "title": "Workshop Small Bag",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211007/2167595/2167595_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "오늘의 코디",
+        "styling_date": "2022.04.20",
+        "view_num": 1305,
+        "styling_txt": "그래픽이 매력적인 반팔 티셔츠와 코튼 팬츠를 코디하고 샌들로 마무리한 아메리칸 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14959/detail_14959_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/770001"
+        ],
+        "hashtags": [],
+        "style_tag": "아메카지",
+        "item_list": [
+            {
+                "title": "NO.6 THE GOOD SHEPHERD (BUCKLED)_BROWN (남여공용)",
+                "big_category": "신발",
+                "small_category": "샌들",
+                "item_hashtags": [
+                    "스트랩샌들"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20180430/770001/770001_2_500.jpg"
+            }
+        ]
+    }
+]

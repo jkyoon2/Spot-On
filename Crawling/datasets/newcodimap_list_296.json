@@ -1,0 +1,100 @@
+[
+    {
+        "title": "화사하게 꾸며봐",
+        "styling_date": "2022.02.24",
+        "view_num": 1797,
+        "styling_txt": "플리츠 디테일의 원피스와 트렌치 재킷으로 연출한 로맨틱 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/12889/detail_12889_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2202415",
+            "https://www.musinsa.com/app/goods/2329515",
+            "https://www.musinsa.com/app/goods/2308987",
+            "https://www.musinsa.com/app/goods/2094589"
+        ],
+        "hashtags": [],
+        "style_tag": "로맨틱",
+        "item_list": [
+            {
+                "title": "Pleats Trench Shirts Dress_Purple",
+                "big_category": "원피스",
+                "small_category": "맥시 원피스",
+                "item_hashtags": [
+                    "트렌치",
+                    "트렌치스커트",
+                    "트렌치원피스"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211027/2202415/2202415_1_500.jpg"
+            },
+            {
+                "title": "LALA J 귀걸이 (JJLJEQ1BS315SR000)",
+                "big_category": "주얼리",
+                "small_category": "귀걸이",
+                "item_hashtags": [
+                    "귀걸이추천",
+                    "귀걸이선물",
+                    "여성귀걸이",
+                    "여자귀걸이",
+                    "데일리귀걸이",
+                    "제이에스티나귀걸이"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220126/2329515/2329515_2_500.jpg"
+            },
+            {
+                "title": "아미 숄더 O2SBSD14_CL",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "숄더백",
+                    "여자가방",
+                    "데일리가방",
+                    "토트백",
+                    "핸드백"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220114/2308987/2308987_1_500.jpg"
+            },
+            {
+                "title": "Flat_Ophelia R2474p_1cm",
+                "big_category": "신발",
+                "small_category": "플랫 슈즈",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210827/2094589/2094589_2_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "매력적인 조합",
+        "styling_date": "2022.02.24",
+        "view_num": 1889,
+        "styling_txt": "체크 패턴이 돋보이는 더블 코트와 니트를 매치하고 데님 팬츠로 마무리한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/12888/detail_12888_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1237367",
+            "https://www.musinsa.com/app/goods/2319480"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "002 블루 체크 리버시블 롱 코트",
+                "big_category": "아우터",
+                "small_category": "겨울 더블 코트",
+                "item_hashtags": [
+                    "겨울코트",
+                    "롱코트",
+                    "체크롱코트",
+                    "체크코트",
+                    "코트",
+                    "롱"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20191127/1237367/1237367_1_500.jpg"
+            },
+            {
+                "title": "[Silver925] 메인 로고 팬던트 실버목걸이 In297",
+                "big_category": "주얼리",
+                "small_category": "목걸이/펜던트",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220121/2319480/2319480_1_500.jpg"
+            }
+        ]
+    }
+]

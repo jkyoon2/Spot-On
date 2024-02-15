@@ -1,0 +1,61 @@
+[
+    {
+        "title": "귀여운 디테일",
+        "styling_date": "2021.04.28",
+        "view_num": 337,
+        "styling_txt": "레이스 디테일이 매력적인 파자마와 그레이 컬러의 언더웨어로 연출한 홈 웨어 코디",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/2948/detail_2948_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1770164",
+            "https://www.musinsa.com/app/goods/1876712",
+            "https://www.musinsa.com/app/goods/1527120"
+        ],
+        "hashtags": [],
+        "style_tag": "홈웨어",
+        "item_list": [
+            {
+                "title": "레이지 모닝_화이트 (모달파자마)",
+                "big_category": "속옷",
+                "small_category": "홈웨어",
+                "item_hashtags": [
+                    "부들부들잠옷세트",
+                    "모달잠옷세트",
+                    "모달잠옷",
+                    "화이트잠옷",
+                    "레이스잠옷",
+                    "숙면잠옷"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210131/1770164/1770164_1_500.jpg"
+            },
+            {
+                "title": "Brynlee Black Hair Scrunchie",
+                "big_category": "주얼리",
+                "small_category": "헤어 액세서리",
+                "item_hashtags": [
+                    "곱창밴드",
+                    "데일리",
+                    "헤어밴드",
+                    "헤어악세사리",
+                    "데이트룩",
+                    "플라워",
+                    "로맨틱"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210402/1876712/1876712_1_500.jpg"
+            },
+            {
+                "title": "핑크 파우치",
+                "big_category": "여성 가방",
+                "small_category": "파우치 백",
+                "item_hashtags": [
+                    "미니가방",
+                    "미니파우치",
+                    "토도가방",
+                    "파우치",
+                    "핑크파우치",
+                    "POUCH"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200725/1527120/1527120_1_500.jpg"
+            }
+        ]
+    }
+]

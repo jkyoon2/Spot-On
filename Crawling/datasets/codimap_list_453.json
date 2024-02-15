@@ -1,0 +1,98 @@
+[
+    {
+        "title": "스포츠 즐기기",
+        "styling_date": "2021.06.03",
+        "view_num": 1230,
+        "styling_txt": "블루 컬러 반팔 티셔츠와 숏 팬츠를 코디하고 스니커즈로 활동성을 더한 스포츠 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/3430/detail_3430_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1767646",
+            "https://www.musinsa.com/app/goods/1263004"
+        ],
+        "hashtags": [],
+        "style_tag": "스포티",
+        "item_list": [
+            {
+                "title": "LOGO PRINT SHORTS - GREY",
+                "big_category": "바지",
+                "small_category": "숏 팬츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210128/1767646/1767646_2_500.jpg"
+            },
+            {
+                "title": "댄커 (34L 크로스백 구성) 블랙(UP123CBP17)",
+                "big_category": "가방",
+                "small_category": "백팩",
+                "item_hashtags": [
+                    "댄커백팩",
+                    "엄브로가방",
+                    "신학기가방",
+                    "슬링백",
+                    "노트북백팩",
+                    "남자백팩",
+                    "캐주얼백팩"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200106/1263004/1263004_17043391645527_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "데일리 웨어",
+        "styling_date": "2021.06.03",
+        "view_num": 1407,
+        "styling_txt": "애니멀 그래픽이 돋보이는 반팔 티셔츠에 숏 팬츠를 매치한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/3429/detail_3429_1_500.jpg?202402141602",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1880741",
+            "https://www.musinsa.com/app/goods/1445255",
+            "https://www.musinsa.com/app/goods/1493265"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "DV.LOT 640 Utility Shorts -BLACK-",
+                "big_category": "바지",
+                "small_category": "숏 팬츠",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210405/1880741/1880741_1_500.jpg"
+            },
+            {
+                "title": "REFINED / 11",
+                "big_category": "선글라스/안경테",
+                "small_category": "안경",
+                "item_hashtags": [
+                    "뿔테",
+                    "뿔테안경",
+                    "스트릿안경",
+                    "안경",
+                    "힙한안경"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200513/1445255/1445255_1_500.jpg"
+            },
+            {
+                "title": "척 70 빈티지 캔버스 러쉬블루 168514C",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "신발",
+                    "빈티지",
+                    "척70",
+                    "척70빈티지",
+                    "RESTOCK",
+                    "인기상품재입고"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200622/1493265/1493265_1_500.jpg"
+            }
+        ]
+    }
+]

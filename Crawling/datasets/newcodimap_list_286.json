@@ -1,0 +1,93 @@
+[
+    {
+        "title": "돋보이는 개성",
+        "styling_date": "2022.03.14",
+        "view_num": 1633,
+        "styling_txt": "패치워크가 매력적인 조거 팬츠와 스웨트셔츠를 매치하고 블루종으로 마무리한 스트릿 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/13509/detail_13509_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2306242",
+            "https://www.musinsa.com/app/goods/2306187"
+        ],
+        "hashtags": [],
+        "style_tag": "스트릿",
+        "item_list": [
+            {
+                "title": "LMC OVERDYED OVAL OVERSIZED COLLAR SWEATSHIRT black",
+                "big_category": "상의",
+                "small_category": "맨투맨/스웨트셔츠",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220113/2306242/2306242_2_500.jpg"
+            },
+            {
+                "title": "LMC WASHED TWO TONE 6PANEL CAP stone blue",
+                "big_category": "모자",
+                "small_category": "캡/야구 모자",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220113/2306187/2306187_2_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "데님 활용법",
+        "styling_date": "2022.03.14",
+        "view_num": 1540,
+        "styling_txt": "캐주얼 무드의 반팔 티셔츠와 트러커 재킷을 매치하고 데님 팬츠로 마무리한 아메리칸 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/13508/detail_13508_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1920422",
+            "https://www.musinsa.com/app/goods/1875425",
+            "https://www.musinsa.com/app/goods/928642"
+        ],
+        "hashtags": [],
+        "style_tag": "아메카지",
+        "item_list": [
+            {
+                "title": "arch logo s/s tee oatmeal",
+                "big_category": "상의",
+                "small_category": "반소매 티셔츠",
+                "item_hashtags": [
+                    "캐리오버",
+                    "반팔티",
+                    "로고티셔츠"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210426/1920422/1920422_1_500.jpg"
+            },
+            {
+                "title": "Washing Black Denim Newsboy Cap 데님뉴스보이캡",
+                "big_category": "모자",
+                "small_category": "헌팅캡/베레모",
+                "item_hashtags": [
+                    "뉴스보이캡",
+                    "빵모자",
+                    "비니",
+                    "모자",
+                    "캐주얼",
+                    "데일리",
+                    "데님모자"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210401/1875425/1875425_1_500.jpg"
+            },
+            {
+                "title": "스타마스터 코듀로이 White/Beige",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "캔버스",
+                    "캔버스운동화",
+                    "코듀로이"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20190107/928642/928642_16971554582379_500.jpg"
+            }
+        ]
+    }
+]

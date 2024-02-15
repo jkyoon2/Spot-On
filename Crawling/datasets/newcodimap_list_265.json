@@ -1,0 +1,128 @@
+[
+    {
+        "title": "날염 포인트",
+        "styling_date": "2022.04.18",
+        "view_num": 668,
+        "styling_txt": "날염 디테일이 매력적인 반팔 티셔츠와 조거 팬츠를 스타일링한 후 볼캡으로 멋을 더한 스트릿 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14820/detail_14820_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2379807",
+            "https://www.musinsa.com/app/goods/1854537",
+            "https://www.musinsa.com/app/goods/1295273"
+        ],
+        "hashtags": [],
+        "style_tag": "스트릿",
+        "item_list": [
+            {
+                "title": "Graffiti 333 Tee/Black",
+                "big_category": "상의",
+                "small_category": "반소매 티셔츠",
+                "item_hashtags": [
+                    "나염티",
+                    "오버핏반팔",
+                    "여름반팔",
+                    "남자반팔티",
+                    "그래픽티셔츠",
+                    "스트릿패션",
+                    "스트릿브랜드"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220223/2379807/2379807_1_500.jpg"
+            },
+            {
+                "title": "(SS21) Hiking Pant Brown",
+                "big_category": "바지",
+                "small_category": "트레이닝/조거 팬츠",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210319/1854537/1854537_1_500.jpg"
+            },
+            {
+                "title": "NM UTILITY BACKPACK - BLACK",
+                "big_category": "가방",
+                "small_category": "백팩",
+                "item_hashtags": [
+                    "가방",
+                    "백팩",
+                    "힙색",
+                    "유틸리티"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200206/1295273/1295273_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "깔끔하게 마무리",
+        "styling_date": "2022.04.18",
+        "view_num": 2186,
+        "styling_txt": "깔끔한 반팔 티셔츠와 데님 팬츠를 스타일링한 후 메신저 백으로 완성한 댄디 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14819/detail_14819_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2411327",
+            "https://www.musinsa.com/app/goods/1207254",
+            "https://www.musinsa.com/app/goods/1797166",
+            "https://www.musinsa.com/app/goods/2157254"
+        ],
+        "hashtags": [],
+        "style_tag": "댄디",
+        "item_list": [
+            {
+                "title": "깡스타일리스트 X 플랙 베를린 K48 화이트",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220311/2411327/2411327_3_500.jpg"
+            },
+            {
+                "title": "TWO MIX - CC01 BRACELET",
+                "big_category": "주얼리",
+                "small_category": "팔찌",
+                "item_hashtags": [
+                    "스트릿팔찌",
+                    "써지컬스틸",
+                    "써지컬팔찌",
+                    "체인팔찌",
+                    "커플팔찌"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20191030/1207254/1207254_2_500.jpg"
+            },
+            {
+                "title": "soboro c white",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "가방",
+                    "메신저백",
+                    "데일리백",
+                    "미니백",
+                    "남자가방",
+                    "여자가방"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210216/1797166/1797166_1_500.jpg"
+            },
+            {
+                "title": "Uon_Black(Matt)",
+                "big_category": "신발",
+                "small_category": "로퍼",
+                "item_hashtags": [
+                    "비브람",
+                    "슬립온",
+                    "심플",
+                    "편안한",
+                    "남자로퍼",
+                    "남성구두",
+                    "가죽로퍼",
+                    "UTO시리즈"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210930/2157254/2157254_1_500.jpg"
+            }
+        ]
+    }
+]

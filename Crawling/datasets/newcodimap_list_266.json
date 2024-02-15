@@ -1,0 +1,100 @@
+[
+    {
+        "title": "아가일 포인트",
+        "styling_date": "2022.04.15",
+        "view_num": 2690,
+        "styling_txt": "아가일 패턴이 돋보이는 베스트와 데님 팬츠를 매치하고 백팩으로 마무리한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14760/detail_14760_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2232725",
+            "https://www.musinsa.com/app/goods/1953388",
+            "https://www.musinsa.com/app/goods/2413570"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "스트레이트핏 셀비지 데님 팬츠",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211115/2232725/2232725_1_500.jpg"
+            },
+            {
+                "title": "핑퐁 캐롯 원석팔찌",
+                "big_category": "주얼리",
+                "small_category": "팔찌",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210517/1953388/1953388_1_500.jpg"
+            },
+            {
+                "title": "스퍼브N 그린_SUPERB N GREEN",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "스니커즈",
+                    "신발",
+                    "캔버스화",
+                    "그린"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220311/2413570/2413570_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "힙하게 꾸미기",
+        "styling_date": "2022.04.15",
+        "view_num": 3913,
+        "styling_txt": "그래픽이 돋보이는 반팔 티셔츠와 데님 팬츠를 코디하고 스니커즈로 완성한 스트릿 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14759/detail_14759_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2406942",
+            "https://www.musinsa.com/app/goods/2418852",
+            "https://www.musinsa.com/app/goods/1948817"
+        ],
+        "hashtags": [],
+        "style_tag": "스트릿",
+        "item_list": [
+            {
+                "title": "Racing 22 Tee White",
+                "big_category": "상의",
+                "small_category": "반소매 티셔츠",
+                "item_hashtags": [
+                    "반팔티",
+                    "남자반팔티",
+                    "티셔츠",
+                    "여름반팔티",
+                    "반팔티셔츠",
+                    "반팔",
+                    "그래픽",
+                    "SN-LOGO"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220308/2406942/2406942_1_500.jpg"
+            },
+            {
+                "title": "[써지컬스틸] JB042 Gemstone and chain mix necklace",
+                "big_category": "주얼리",
+                "small_category": "목걸이/펜던트",
+                "item_hashtags": [],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220315/2418852/2418852_1_500.jpg"
+            },
+            {
+                "title": "3WAY 미니백 그린",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "웨이스트백",
+                    "가방",
+                    "미니백",
+                    "파우치백",
+                    "벨트백",
+                    "미니크로스백"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210513/1948817/1948817_16795522230188_500.jpg"
+            }
+        ]
+    }
+]

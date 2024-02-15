@@ -1,0 +1,79 @@
+[
+    {
+        "title": "따라 입을래",
+        "styling_date": "2021.12.13",
+        "view_num": 621,
+        "styling_txt": "핑크 컬러가 매력적인 스웨트셔츠와 데님 팬츠를 코디하고 숏 패딩을 걸쳐 마무리한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/10059/detail_10059_1_500.jpg?202402140402",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2117238",
+            "https://www.musinsa.com/app/goods/2126181",
+            "https://www.musinsa.com/app/goods/2124426",
+            "https://www.musinsa.com/app/goods/2238992",
+            "https://www.musinsa.com/app/goods/2061784"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "우먼즈 아웃 포켓 다운 숏 패딩 재킷 [라이트 그레이]",
+                "big_category": "아우터",
+                "small_category": "숏패딩/숏헤비 아우터",
+                "item_hashtags": [
+                    "신사 단독",
+                    "신사 스토어에서만 단독 판매하는 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210908/2117238/2117238_2_500.jpg"
+            },
+            {
+                "title": "우먼즈 벌룬 슬리브 스웨트셔츠 [데저트 핑크]",
+                "big_category": "상의",
+                "small_category": "맨투맨/스웨트셔츠",
+                "item_hashtags": [
+                    "신사 단독",
+                    "신사 스토어에서만 단독 판매하는 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210913/2126181/2126181_17026231776864_500.jpg"
+            },
+            {
+                "title": "우먼즈 스트레이트 데님 팬츠 [그레이]",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [
+                    "신사 단독",
+                    "신사 스토어에서만 단독 판매하는 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210910/2124426/2124426_1_500.jpg"
+            },
+            {
+                "title": "1978 볼캡",
+                "big_category": "모자",
+                "small_category": "캡/야구 모자",
+                "item_hashtags": [
+                    "커플모자",
+                    "여자볼캡",
+                    "여자모자",
+                    "남자모자",
+                    "모자",
+                    "로고모자"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211118/2238992/2238992_1_500.jpg"
+            },
+            {
+                "title": "KOS 레더 PINK",
+                "big_category": "스니커즈",
+                "small_category": "기타 스니커즈",
+                "item_hashtags": [
+                    "코닥어패럴",
+                    "코닥신발",
+                    "스니커즈추천",
+                    "남성운동화",
+                    "여성운동화",
+                    "운동화추천",
+                    "스니커즈"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210812/2061784/2061784_1_500.jpg"
+            }
+        ]
+    }
+]

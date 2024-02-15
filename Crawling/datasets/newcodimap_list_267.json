@@ -1,0 +1,95 @@
+[
+    {
+        "title": "가벼운 외출",
+        "styling_date": "2022.04.14",
+        "view_num": 3367,
+        "styling_txt": "편하게 입기 좋은 후드 티셔츠와 숏 팬츠를 매치하고 백팩으로 마무리한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14700/detail_14700_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1676080",
+            "https://www.musinsa.com/app/goods/1931510"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "아크 로고 후디 (네이비)",
+                "big_category": "상의",
+                "small_category": "후드 티셔츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20201103/1676080/1676080_1_500.jpg"
+            },
+            {
+                "title": "프렌다 컷 스웻-쇼츠 그레이",
+                "big_category": "바지",
+                "small_category": "숏 팬츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210430/1931510/1931510_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "스포티해!",
+        "styling_date": "2022.04.14",
+        "view_num": 1950,
+        "styling_txt": "레터링이 돋보이는 반팔 티셔츠와 트레이닝 팬츠를 코디하고 러닝화로 완성한 스포츠 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/14699/detail_14699_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2459074",
+            "https://www.musinsa.com/app/goods/2329108",
+            "https://www.musinsa.com/app/goods/2066161"
+        ],
+        "hashtags": [],
+        "style_tag": "스포티",
+        "item_list": [
+            {
+                "title": "M 3ST 와이드 WUP - 블랙:화이트 / HD0016",
+                "big_category": "바지",
+                "small_category": "트레이닝/조거 팬츠",
+                "item_hashtags": [
+                    "utlet",
+                    "울렛",
+                    "품 구분",
+                    "울렛 상품",
+                    "신사 스토어 아울렛은 무신사가 엄선한 인기 브랜드 상품을 높은 할인율의 특가로 만날 수 있는 전문관입니다. 스트릿, 캐주얼, 스포츠 패션 부터 럭셔리, 뷰티, 라이프 스타일 브랜드까지 다양한 상품을 언제나 아울렛 전용 혜택으로 제공합니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220331/2459074/2459074_1_500.jpg"
+            },
+            {
+                "title": "바이져 에어로레디 캡 - 화이트 / HA5541",
+                "big_category": "스포츠/용품",
+                "small_category": "스포츠모자",
+                "item_hashtags": [
+                    "에어로레디",
+                    "트레이닝캡",
+                    "스포츠캡",
+                    "캡모자",
+                    "퍼포먼스",
+                    "아디다스테니스"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220126/2329108/2329108_1_500.jpg"
+            },
+            {
+                "title": "젤-1130 - 화이트:미드나이트 / 1201A256-106",
+                "big_category": "스니커즈",
+                "small_category": "패션스니커즈화",
+                "item_hashtags": [
+                    "젤1130",
+                    "젤-1130",
+                    "런닝화",
+                    "스니커즈",
+                    "젤",
+                    "데일리신발",
+                    "커플신발"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210817/2066161/2066161_2_500.jpg"
+            }
+        ]
+    }
+]

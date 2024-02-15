@@ -1,0 +1,126 @@
+[
+    {
+        "title": "강렬한 힙",
+        "styling_date": "2022.04.26",
+        "view_num": 1240,
+        "styling_txt": "유니크한 패턴이 돋보이는 니트 집업에 데님 팬츠를 스타일링한 후 볼캡으로 멋을 낸 스트릿 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15193/detail_15193_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2133301",
+            "https://www.musinsa.com/app/goods/2466480",
+            "https://www.musinsa.com/app/goods/2287224"
+        ],
+        "hashtags": [],
+        "style_tag": "스트릿",
+        "item_list": [
+            {
+                "title": "DENIM WORK PANTS (BLACK)",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [
+                    "위캔더스×올가구스캔들",
+                    "코튼팬츠",
+                    "와이드팬츠",
+                    "캐주얼팬츠",
+                    "데님컬렉션",
+                    "팬츠컬렉션",
+                    "데님와이드핏",
+                    "데님블랙"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210915/2133301/2133301_2_500.jpg"
+            },
+            {
+                "title": "SIGN TRUCKER CAP (YELLOW)",
+                "big_category": "모자",
+                "small_category": "캡/야구 모자",
+                "item_hashtags": [
+                    "모자",
+                    "볼캡추천",
+                    "메쉬캡",
+                    "로고볼캡",
+                    "야구볼캡",
+                    "로고모자",
+                    "로고",
+                    "22SS"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220405/2466480/2466480_1_500.jpg"
+            },
+            {
+                "title": "LMC SYSTEM SACOCHE black",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20211230/2287224/2287224_1_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "센스 있는 서머 룩",
+        "styling_date": "2022.04.26",
+        "view_num": 1290,
+        "styling_txt": "워싱 디테일이 돋보이는 데님 팬츠와 카라 니트를 스타일링한 후 버킷햇으로 포인트를 더한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/15192/detail_15192_1_500.jpg?202402150202",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1854679",
+            "https://www.musinsa.com/app/goods/2358429",
+            "https://www.musinsa.com/app/goods/1688212",
+            "https://www.musinsa.com/app/goods/501195"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "Lozenge Half Knit (Cream)",
+                "big_category": "상의",
+                "small_category": "니트/스웨터",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210319/1854679/1854679_16873236451174_500.jpg"
+            },
+            {
+                "title": "브루클린 뉴트로 와이드 워시드 데님 팬츠",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220214/2358429/2358429_16769596683784_500.jpg"
+            },
+            {
+                "title": "러너스백 (블랙)",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "메신저백",
+                    "데일리백",
+                    "남자가방",
+                    "가방",
+                    "데일리",
+                    "크로스백"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20201112/1688212/1688212_16898220802486_500.jpg"
+            },
+            {
+                "title": "아리조나 블랙 051791",
+                "big_category": "신발",
+                "small_category": "슬리퍼",
+                "item_hashtags": [
+                    "가죽슬리퍼",
+                    "블랙",
+                    "스트랩슬리퍼",
+                    "슬라이드",
+                    "애리조나",
+                    "레더",
+                    "서머슈즈"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20170317/501195/501195_3_500.jpg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "title": "따라 입어봐",
+        "styling_date": "2022.12.02",
+        "view_num": 3890,
+        "styling_txt": "워싱 디테일이 매력적인 데님 팬츠와 후드 집업을 매치하고 볼캡을 더해 연출한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/20101/detail_20101_1_500.jpg?202402140402",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2859075",
+            "https://www.musinsa.com/app/goods/2703774",
+            "https://www.musinsa.com/app/goods/2761609",
+            "https://www.musinsa.com/app/goods/2864774",
+            "https://www.musinsa.com/app/goods/1789507",
+            "https://www.musinsa.com/app/goods/2795926"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "[ALL리뉴얼.Ver] 오리지널 M65 피시테일 숏파카_블랙",
+                "big_category": "아우터",
+                "small_category": "사파리/헌팅 재킷",
+                "item_hashtags": [
+                    "야상",
+                    "개파카",
+                    "피시테일",
+                    "필드자켓",
+                    "사파리",
+                    "피쉬테일",
+                    "패딩",
+                    "FW아우터",
+                    "F/W아우터신상&재입고"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20221013/2859075/2859075_16956948153468_500.jpg"
+            },
+            {
+                "title": "VSW Puppy Crewneck Light Gray",
+                "big_category": "상의",
+                "small_category": "맨투맨/스웨트셔츠",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220808/2703774/2703774_16944101593845_500.jpg"
+            },
+            {
+                "title": "러프 워시드 팬츠 [시멘트 그레이]",
+                "big_category": "바지",
+                "small_category": "데님 팬츠",
+                "item_hashtags": [
+                    "와이드데님",
+                    "팬츠",
+                    "워싱데님",
+                    "남자청바지",
+                    "와이드핏",
+                    "와이드팬츠",
+                    "데님팬츠",
+                    "팬츠컬렉션",
+                    "데님블랙"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220901/2761609/2761609_1_500.jpg"
+            },
+            {
+                "title": "Identity ball cap [black-white]",
+                "big_category": "스포츠/용품",
+                "small_category": "스포츠모자",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20221014/2864774/2864774_2_500.jpg"
+            },
+            {
+                "title": "아크 블랙 메신저백",
+                "big_category": "가방",
+                "small_category": "메신저/크로스 백",
+                "item_hashtags": [
+                    "정판매",
+                    "신사 스토어를 포함한 제한된 판매처에서만 구매 가능한 상품입니다."
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210209/1789507/1789507_1_500.jpg"
+            },
+            {
+                "title": "더 그루비(The Groovy)_블랙",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "캐주얼스니커즈",
+                    "남성스니커즈",
+                    "더그루비",
+                    "고프코어",
+                    "타이어아웃솔",
+                    "스트릿",
+                    "남자스트릿패션",
+                    "아울렛"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20220915/2795926/2795926_16932842710071_500.jpg"
+            }
+        ]
+    }
+]

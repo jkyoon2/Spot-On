@@ -1,0 +1,105 @@
+[
+    {
+        "title": "귀여운 데일리 룩",
+        "styling_date": "2021.10.20",
+        "view_num": 7635,
+        "styling_txt": "로고 디테일이 돋보이는 후드 티셔츠와 코튼 팬츠를 매치하고 플리스로 완성한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/8068/detail_8068_1_500.jpg?202402140402",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/1563096",
+            "https://www.musinsa.com/app/goods/705441",
+            "https://www.musinsa.com/app/goods/2104982"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "플리스 카라리스 자켓 블랙",
+                "big_category": "아우터",
+                "small_category": "플리스/뽀글이",
+                "item_hashtags": [
+                    "플리스",
+                    "플리스자켓",
+                    "후리스",
+                    "뽀글이",
+                    "로고",
+                    "가디건",
+                    "깡스타일리스트PICK",
+                    "맥시블랙트렌드",
+                    "젠더리스"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200825/1563096/1563096_5_500.jpg"
+            },
+            {
+                "title": "어센틱 로고 후디 멜란지 그레이",
+                "big_category": "상의",
+                "small_category": "후드 티셔츠",
+                "item_hashtags": [
+                    "후드티",
+                    "후디",
+                    "후드",
+                    "로고",
+                    "그래픽",
+                    "데일리아이템",
+                    "23S/S정규컬렉션"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20180130/705441/705441_16792869489590_500.jpg"
+            },
+            {
+                "title": "와펜 C 로고 B.B 캡 오렌지",
+                "big_category": "모자",
+                "small_category": "캡/야구 모자",
+                "item_hashtags": [
+                    "볼캡모자",
+                    "모자",
+                    "남자모자",
+                    "캡모자",
+                    "커플모자",
+                    "C로고"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210902/2104982/2104982_2_500.jpg"
+            }
+        ]
+    },
+    {
+        "title": "센스 넘쳐",
+        "styling_date": "2021.10.20",
+        "view_num": 3012,
+        "styling_txt": "체크 패턴이 돋보이는 셔츠와 니트를 레이어드하고 비니로 마무리한 캐주얼 룩",
+        "image_url": "https://image.msscdn.net/images/codimap/detail/8067/detail_8067_1_500.jpg?202402140402",
+        "item_urls": [
+            "https://www.musinsa.com/app/goods/2132991",
+            "https://www.musinsa.com/app/goods/1480952"
+        ],
+        "hashtags": [],
+        "style_tag": "캐주얼",
+        "item_list": [
+            {
+                "title": "램스울 C 로고 크루넥 니트 오트밀",
+                "big_category": "상의",
+                "small_category": "니트/스웨터",
+                "item_hashtags": [
+                    "니트",
+                    "스웨터",
+                    "긴팔니트",
+                    "울니트",
+                    "C로고",
+                    "그래픽"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20210915/2132991/2132991_2_500.jpg"
+            },
+            {
+                "title": "Austin Yellow Suede Sneakers",
+                "big_category": "스니커즈",
+                "small_category": "캔버스/단화",
+                "item_hashtags": [
+                    "림트",
+                    "LIMT",
+                    "컬러스니커즈",
+                    "오스틴"
+                ],
+                "image_url": "https://image.msscdn.net/images/goods_img/20200610/1480952/1480952_1_500.png"
+            }
+        ]
+    }
+]

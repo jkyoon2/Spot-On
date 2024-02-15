@@ -1,1 +1,0 @@
-CGDETR/run_on_video/CLIP_ckpt/qvhighlights_onlyCLIP/model_best.ckpt filter=lfs diff=lfs merge=lfs -text
