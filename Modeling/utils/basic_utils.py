@@ -243,26 +243,43 @@ def modify_length(video_path, output_path, new_length=145.0):
     stream = ffmpeg.output(stream, output_path, an=None, t=new_length)
     ffmpeg.run(stream)
 
-def capture_video(video_path, output_path, seconds_list):
+import cv2
+
+def capture_video(video_path, n, seconds_list):
     cap = cv2.VideoCapture(video_path)
     fps = cap.get(cv2.CAP_PROP_FPS)
-    
+    total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
+    duration = total_frames / fps
+
+    # Calculate n parts times
+    n_parts_times = [duration * (i/n) for i in range(1, n)]
+
+    # Capture frames at the specified seconds
+    seconds_list_captures = []
     for second in seconds_list:
-        # Calculate the frame number
         frame_number = int(fps * second)
-
-        # Move the video capture to the frame number
         cap.set(cv2.CAP_PROP_POS_FRAMES, frame_number)
-
-        # Read the next frame from the video
         ret, frame = cap.read()
 
         if ret:
-            # If the frame was read, save it to the output file
-            cv2.imwrite(os.path.join(output_path, f"{second}.jpg"), frame)
+            seconds_list_captures.append(frame)
         else:
-            # If the frame was not read, print an error
             print(f"Failed to capture frame at {second} seconds.")
 
-    # Release the video capture
+    # Capture frames at the n parts times
+    n_parts_captures = []
+    for second in n_parts_times:
+        frame_number = int(fps * second)
+        cap.set(cv2.CAP_PROP_POS_FRAMES, frame_number)
+        ret, frame = cap.read()
+
+        if ret:
+            n_parts_captures.append(frame)
+        else:
+            print(f"Failed to capture frame at {second} seconds in n parts.")
+
     cap.release()
+    
+    # Return the captured frames
+    return {'seconds_list_captures': seconds_list_captures, 'n_parts_captures': n_parts_captures}
+

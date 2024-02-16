@@ -19,9 +19,10 @@ def load_jsonl(filename):
         return [json.loads(l.strip("\n")) for l in f.readlines()]
 
 class CGDETRPredictor:
-    def __init__(self, ckpt_path, clip_model_name_or_path="ViT-B/32", device="cuda"):
+    def __init__(self, ckpt_path, clip_model_name_or_path="ViT-B/32", device="cuda", captured_path='./static/captured_images'):
         self.clip_len = 2  # seconds
         self.device = device
+        self.captured_path = captured_path
         print("Loading feature extractors...")
         self.feature_extractor = ClipFeatureExtractor(
             framerate=1/self.clip_len, size=224, centercrop=True,
@@ -176,7 +177,10 @@ def run_example(youtube_url='', desired_query='', video_path=''):
     results['pred_scores'] = predictions[0]['pred_saliency_scores']
     
     # TODO: Currently, it saves the captured images of the top-5 moments. It should be changed to return the images.
-    capture_video(video_path, 'run_on_video/example', results['topk_moments'])
+    
+    captued_images = capture_video(video_path, 10, results['topk_moments'])
+    results['seconds_list_captures'] = captued_images['seconds_list_captures']
+    results['n_parts_captures'] = captued_images['n_parts_captures']
     
     print(f"Results: {results}")
     

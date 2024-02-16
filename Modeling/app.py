@@ -7,6 +7,7 @@ from flask_cors import CORS
 import os, logging
 from text_search import TextSearchModel
 from image_search import ImageSearchModel
+from video_search import VideoSearchModel
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -37,6 +38,11 @@ text_search_model = TextSearchModel(args.pickle_path, './static/images', device=
 logger.info(f"Loading ImageSearchModel...")
 image_search_model = ImageSearchModel(args.pickle_path, './static/images', device=device,
                                       client_id=args.client_id, client_secret=args.client_secret)
+
+logger.info(f"Loading VideoSearchModel...")
+video_search_model = VideoSearchModel(args.pickle_path, './static/images', device=device,
+                                      client_id=args.client_id, client_secret=args.client_secret)
+
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -147,14 +153,15 @@ def search_moments():
     prompt = data['prompt']
 
     # Use VideoSearchModel to get top-k moments from the video
+    search_result = video_search_model.search_moments(video_url, prompt, top_k=5)
+
     # Generate image urls
-    visualization_url = url_for('static', filename='images/visualization.jpg')
-    image1_url = url_for('static', filename='images/1.png')
-    image2_url = url_for('static', filename='images/2.png')
-    image3_url = url_for('static', filename='images/3.png')
-    image4_url = url_for('static', filename='images/4.png')
-    image5_url = url_for('static', filename='images/5.png')
-    image6_url = url_for('static', filename='images/6.png')
+    visualization_url = url_for('static', filename='visualization.jpg')
+    image1_url = url_for('static', filename='0.jpg')
+    image2_url = url_for('static', filename='1.jpg')
+    image3_url = url_for('static', filename='2.jpg')
+    image4_url = url_for('static', filename='3.jpg')
+    image5_url = url_for('static', filename='4.jpg')
 
     results = {}
     results['visualization'] = visualization_url
@@ -174,24 +181,39 @@ def video_search():
     selected_moment = data['selectedMoment'] # integer index of the selected moment (0-4)
     prompt = data['prompt']
 
-    # Generate image urls
-    image1_url = url_for('static', filename='images/1.png')
-    image2_url = url_for('static', filename='images/2.png')
-    image3_url = url_for('static', filename='images/3.png')
-    image4_url = url_for('static', filename='images/4.png')
-    image5_url = url_for('static', filename='images/5.png')
-    image6_url = url_for('static', filename='images/6.png')
+    # First, remove the existing image file
+    if os.path.exists('static/uploaded_image.jpg'):
+        os.remove('static/uploaded_image.jpg')
+    
+    original_path = f"./static/{selected_moment}.jpg"
+    new_path = f"./static/uploaded_image.jpg"
+    os.rename(original_path, new_path)
 
+    # Use ImageSearchModel to segment and get top-k image file paths
+    search_result = image_search_model.search('static/uploaded_image.jpg', prompt)
+
+    # Generate image urls
+    image_url = []
+    for path in search_result:
+        image_url.append(url_for('static', filename=path))
+    
+    # Generate product information
     results = {}
     results['searchText'] = prompt
-    results['searchImage'] = ''
-    results['products'] = [
-        {'productID': "0000001", 'productName': "스페이스 헤비코튼", "productImage": image2_url, "productBigcat": "상의", "productSmallcat": "후드 티셔츠", "productHashtag": ["후드티셔츠", "오버핏", "빈티지"]},
-        {'productID': "0000002", 'productName': "코튼 트위드 자켓", "productImage": image3_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
-        {'productID': "0000003", 'productName': "코튼 트위드 자켓", "productImage": image4_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
-        {'productID': "0000004", 'productName': "코튼 트위드 자켓", "productImage": image5_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
-        {'productID': "0000005", 'productName': "코튼 트위드 자켓", "productImage": image6_url, "productBigcat": "아우터", "productSmallcat": "자켓", "productHashtag": ["자켓", "트위드", "코튼"]},
-    ]
+    results['searchImage'] = ""
+    results['products'] = []
+    
+    for result in search_result:
+        image_name = result.split('/')[-1].split('.')[0]
+        product = pickle[image_name]
+        results['products'].append({
+            'productID': image_name,
+            'productName': product['title'],
+            'productImage': url_for('static', filename=result),
+            'productBigcat': product['big_category'],
+            'productSmallcat': product['small_category'],
+            'productHashtag': product['item_hashtags']
+        })
 
     return jsonify(results)
 
