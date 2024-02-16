@@ -1,3 +1,12 @@
 **/__pycache__/
 
 Crawling/images/*
+CGDETR/cg_detr/__pycache__/
+Modeling/static/images/*
+CGDETR/cg_detr/__pycache__/__init__.cpython-37.pyc
+Modeling/static/uploaded_image.jpg
+Modeling/run_on_video/example/*
+Modeling/embeddings.pkl
+CGDETR/run_on_video/example/*
+Modeling/images.tar
+Modeling/run_on_video/CLIP_ckpt/qvhighlights_onlyCLIP/model_best.ckpt

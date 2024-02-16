@@ -4,10 +4,14 @@ import torch
 import pickle
 import requests
 import numpy as np
+import logging
 
 from typing import List
 from transformers import CLIPModel, CLIPProcessor
 from sklearn.metrics.pairwise import cosine_similarity
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 class TextSearchModel:
     def __init__(self, pickle_path: str, image_dir: str, device, client_id, client_secret,url='https://openapi.naver.com/v1/papago/n2mt'):
@@ -18,20 +22,22 @@ class TextSearchModel:
         self.device = device
 
         # TODO 1: Initialize CLIP text model
+        logger.info("Loading CLIP text model...")
         self.model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
         self.processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
         # TODO 2: Load encoded image features (pickle file)
+        logger.info("Loading encoded image features...")
         with open(pickle_path, "rb") as file:
             self.pickle = pickle.load(file)
 
         # TODO 3: Initialize image file path list ('./images/000000.jpg', ...)
-        self.image_file_path_list = [os.path.join(image_dir, image) for image in os.listdir(image_dir)]
+        self.image_file_path_list = [f"images/{key}.jpg" for key in sorted(self.pickle.keys())]
 
         # TODO 5: Initialize hyperparameter of weights for each similarity score
         self.w_big = 1
         self.w_small = 1
-        self.w_image = 1
+        self.w_image = 2
 
     def translate(self, query_text: str) -> str:
         headers = {
@@ -51,6 +57,8 @@ class TextSearchModel:
         # TODO 1: Encode the query_text using CLIP text model
 
         query_text = self.translate(query_text)
+        logger.info(f"Translated query text: {query_text}")
+
         text_token = self.processor(query_text, return_tensors="pt", padding=True, truncation=True).to(self.device)
 
         with torch.no_grad():
@@ -98,6 +106,17 @@ class TextSearchModel:
         
         weighted_sum = big_score * self.w_big + small_score * self.w_small + image_score * self.w_image
         
-        sorted_indices = np.argsort(weighted_sum, axis=0)
+        sorted_indices = np.argsort(weighted_sum, axis=0)[::-1]
         sorted_items = np.array(self.image_file_path_list)[sorted_indices]
-        return sorted_items[:5]
+
+        return sorted_items[:top_k].flatten().tolist()
+
+
+if __name__ == "__main__":
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    client_id = "7mjrb3lKMrT9UIGQwmSB"; client_secret = "5O9ezGkzdy"
+    textSearchModel = TextSearchModel('./embeddings.pkl', './images/', device=device, 
+                                      client_id=client_id, client_secret=client_secret)
+    
+    query_text = "노란색 원피스"
+    result = textSearchModel.search(query_text)
