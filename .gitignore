@@ -11,3 +11,7 @@ CGDETR/run_on_video/example/*
 Modeling/images.tar
 Modeling/run_on_video/CLIP_ckpt/qvhighlights_onlyCLIP/model_best.ckpt
 Modeling/static/*.jpg
+
+.next/
+node_modules/
+
